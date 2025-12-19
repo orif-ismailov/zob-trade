@@ -1,0 +1,74 @@
+<div class="mb-8">
+  <div class="flex items-center justify-between">
+    <div>
+      <h1 class="text-3xl font-bold text-gray-900">Edit: <%= lang.toUpperCase() %> Translations</h1>
+      <p class="text-gray-500 mt-2">Update text content for this language</p>
+    </div>
+    <a href="/admin/translations" class="text-gray-500 hover:text-gray-900">
+      Back to languages
+    </a>
+  </div>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm p-6">
+  <div class="mb-6 p-4 bg-yellow-50 rounded-lg">
+    <p class="text-yellow-800 text-sm">
+      <strong>Warning:</strong> Be careful when editing the JSON structure. Invalid JSON will cause errors.
+    </p>
+  </div>
+
+  <form id="translation-form">
+    <div class="mb-6">
+      <label class="block text-sm font-medium text-gray-700 mb-2">Translation Data (JSON)</label>
+      <textarea id="translations-json" name="translations"
+                class="w-full h-96 px-4 py-3 font-mono text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"><%= JSON.stringify(translations, null, 2) %></textarea>
+    </div>
+
+    <div id="form-message" class="hidden mb-4"></div>
+
+    <div class="flex items-center gap-4">
+      <button type="submit"
+              class="px-6 py-3 bg-primary-900 text-white rounded-lg font-semibold hover:bg-primary-800 transition-colors">
+        Save Translations
+      </button>
+      <a href="/admin/translations" class="px-6 py-3 text-gray-600 hover:text-gray-900">
+        Cancel
+      </a>
+    </div>
+  </form>
+</div>
+
+<script>
+document.getElementById('translation-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+
+  const formMessage = document.getElementById('form-message');
+  const jsonText = document.getElementById('translations-json').value;
+
+  try {
+    // Validate JSON
+    const translations = JSON.parse(jsonText);
+
+    const response = await fetch('/admin/translations/<%= lang %>', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ translations })
+    });
+
+    const result = await response.json();
+
+    formMessage.classList.remove('hidden');
+    if (result.success) {
+      formMessage.className = 'bg-green-100 text-green-700 p-4 rounded-lg mb-4';
+      formMessage.textContent = 'Translations saved successfully!';
+    } else {
+      formMessage.className = 'bg-red-100 text-red-700 p-4 rounded-lg mb-4';
+      formMessage.textContent = result.error || 'Failed to save translations.';
+    }
+  } catch (error) {
+    formMessage.classList.remove('hidden');
+    formMessage.className = 'bg-red-100 text-red-700 p-4 rounded-lg mb-4';
+    formMessage.textContent = 'Invalid JSON format. Please check your syntax.';
+  }
+});
+</script>

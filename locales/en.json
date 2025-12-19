@@ -1,0 +1,331 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "logistics": "Logistics",
+    "compliance": "Compliance",
+    "markets": "Markets",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "ZOB TRADE LLC is a Georgian-based petroleum trading and supply company with 25 years of industry experience, operating across the full physical supply chain.",
+    "quick_links": "Quick Links",
+    "contact": "Contact Us",
+    "rights": "All rights reserved."
+  },
+  "seo": {
+    "home": {
+      "title": "Fuel & Petroleum Supplier from Georgia | ZOB TRADE LLC",
+      "description": "ZOB TRADE LLC - Wholesale fuel and petroleum products supplier from Georgia to Central Asia. Diesel EN 590, Gasoline A-92, A-95. 25 years of experience.",
+      "keywords": "fuel supplier georgia, petroleum trading, diesel en590, gasoline wholesale, central asia fuel, ZOB TRADE LLC"
+    },
+    "about": {
+      "title": "About Us | ZOB TRADE LLC",
+      "description": "ZOB TRADE LLC - Integrated petroleum supplier with own refinery and tankers. 25 years of operational experience in fuel trading.",
+      "keywords": "ZOB TRADE LLC, fuel trading georgia, petroleum supplier, own refinery"
+    },
+    "products": {
+      "title": "Products | ZOB TRADE LLC",
+      "description": "Diesel EN 590, Gasoline A-92, A-95 - wholesale petroleum products for bulk supply and monthly contracts from ZOB TRADE LLC.",
+      "keywords": "diesel en590, gasoline a92, gasoline a95, petroleum products"
+    },
+    "logistics": {
+      "title": "Logistics & Routes | ZOB TRADE LLC",
+      "description": "Rail and sea logistics from Georgian ports to Central Asia. Batumi, Poti, Kulevi ports. FOB, CIF, DAP terms.",
+      "keywords": "fuel logistics, rail transport, georgia ports, central asia routes, Galaba terminal"
+    },
+    "compliance": {
+      "title": "Compliance & Documents | ZOB TRADE LLC",
+      "description": "Full KYC/AML compliance, SGS/Intertek inspection, bank-to-bank payments only. Licensed petroleum trading.",
+      "keywords": "kyc aml compliance, sgs inspection, petroleum trading compliance"
+    },
+    "markets": {
+      "title": "Markets | ZOB TRADE LLC",
+      "description": "Serving Uzbekistan, Kazakhstan, Afghanistan, Tajikistan with petroleum products. Government and private buyers.",
+      "keywords": "central asia fuel market, uzbekistan petroleum, kazakhstan fuel supply"
+    },
+    "contact": {
+      "title": "Contact Us | ZOB TRADE LLC",
+      "description": "Request a quotation for diesel and gasoline products. Contact ZOB TRADE LLC via WhatsApp or Telegram.",
+      "keywords": "fuel quotation, petroleum contact, wholesale fuel inquiry"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Fuel & Petroleum Products Supplier from Georgia",
+      "subtitle": "ZOB TRADE LLC is a Georgian-based petroleum trading and supply company with 25 years of industry experience, operating across the full physical supply chain of fuel production, storage, and international delivery.",
+      "cta": "Request a Quotation",
+      "georgia_central_asia": "Georgia → Central Asia"
+    },
+    "trust": {
+      "years": "Years Experience",
+      "tons": "Tons Exported",
+      "countries": "Countries Served",
+      "compliance": "Compliance"
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "We provide wholesale and export supplies of petroleum products from Georgia to Central Asia",
+      "diesel_desc": "European standard diesel fuel for industrial and commercial use",
+      "gasoline92_desc": "Regular gasoline for general automotive applications",
+      "gasoline95_desc": "Premium gasoline for high-performance requirements",
+      "view_all": "View All Products"
+    },
+    "logistics": {
+      "title": "Logistics & Routes",
+      "subtitle": "Established export routes from Georgia to Central Asia using reliable maritime and rail logistics",
+      "ports_title": "Ports of Loading",
+      "rail_title": "Rail Delivery",
+      "incoterms_title": "Incoterms",
+      "map_placeholder": "Logistics route map"
+    },
+    "compliance": {
+      "title": "Full Compliance",
+      "contracts": "Contract-based",
+      "bank": "Bank-to-Bank",
+      "no_grey": "No Grey Schemes"
+    },
+    "cta": {
+      "title": "Ready to Start?",
+      "subtitle": "Get a quotation for your petroleum needs",
+      "button": "Contact Us Now"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "ZOB TRADE LLC is an integrated petroleum supplier registered in Georgia and operating with its own production and logistics infrastructure",
+    "who_we_are": {
+      "title": "Who We Are",
+      "p1": "ZOB TRADE LLC is an integrated petroleum supplier registered in Georgia and operating with its own production and logistics infrastructure.",
+      "p2": "With 25 years of operational experience, the company is directly involved in the physical movement of petroleum products — from refining and storage to export delivery.",
+      "p3": "ZOB TRADE LLC is not an intermediary. We are a physical participant in the supply chain."
+    },
+    "company_info": {
+      "title": "Company Profile",
+      "legal_name": "Legal Name",
+      "registration": "Country of Registration",
+      "experience": "Industry Experience",
+      "years": "years",
+      "regions": "Focus",
+      "regions_value": "Long-term B2B, governmental and institutional contracts"
+    },
+    "infrastructure": {
+      "title": "Our Infrastructure",
+      "refinery": "Own Mini-Refinery",
+      "tankers": "Own Oil Tankers",
+      "ports": "Operations through Batumi, Poti and Kulevi ports"
+    },
+    "ports": {
+      "title": "Our Ports",
+      "poti_desc": "Major deep-water port with rail connection",
+      "kulevi_desc": "Specialized oil terminal with modern infrastructure",
+      "batumi_desc": "Strategic port for petroleum product handling"
+    },
+    "model": {
+      "title": "Our Trading Model",
+      "step1_title": "Production",
+      "step1_desc": "Own mini-refinery for petroleum products",
+      "step2_title": "Storage",
+      "step2_desc": "Dedicated storage facilities at Georgian ports",
+      "step3_title": "Logistics",
+      "step3_desc": "Own oil tankers and rail transport",
+      "step4_title": "Delivery",
+      "step4_desc": "Export delivery to Central Asia with full documentation"
+    },
+    "cta": {
+      "title": "Want to Work With Us?",
+      "subtitle": "Contact us for partnership opportunities and quotations",
+      "button": "Get in Touch"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "High-quality petroleum products for wholesale and export to Central Asia",
+    "specifications": "Specifications",
+    "specs_note": "Specifications and quality certificates available upon request",
+    "bulk": "Bulk Supply",
+    "monthly": "Monthly Contracts",
+    "diesel": {
+      "description": "European standard EN 590 diesel fuel for industrial, commercial, and automotive applications.",
+      "sulfur": "Sulfur Content",
+      "cetane": "Cetane Number",
+      "density": "Density"
+    },
+    "gasoline92": {
+      "description": "Regular gasoline A-92, available for bulk supply and monthly contracts."
+    },
+    "gasoline95": {
+      "description": "Premium gasoline A-95 with higher octane rating for performance requirements."
+    },
+    "gasoline": {
+      "octane": "Octane Rating",
+      "sulfur": "Sulfur Content",
+      "benzene": "Benzene Content"
+    },
+    "origin": {
+      "title": "Product Origin",
+      "description": "Origin available upon request. All products meet quality standards and are verified by independent inspection."
+    },
+    "cta": {
+      "title": "Need a Quotation?",
+      "subtitle": "Contact us with your product requirements and volume",
+      "button": "Request Quote"
+    }
+  },
+  "logistics": {
+    "title": "Logistics & Routes",
+    "subtitle": "ZOB TRADE LLC operates established export routes from Georgia to Central Asia using reliable maritime and rail logistics",
+    "ports": {
+      "title": "Ports of Loading",
+      "poti_desc": "Major deep-water port on the Black Sea coast",
+      "poti_feature1": "Rail connection to Central Asia",
+      "poti_feature2": "Container and bulk handling",
+      "kulevi_desc": "Specialized oil and petroleum terminal",
+      "kulevi_feature1": "Modern oil handling facilities",
+      "kulevi_feature2": "Large storage capacity",
+      "batumi_desc": "Strategic petroleum handling port",
+      "batumi_feature1": "Oil terminal infrastructure",
+      "batumi_feature2": "Transit capabilities"
+    },
+    "routes": {
+      "title": "Delivery Routes",
+      "map_placeholder": "Route map showing rail connections",
+      "uzbekistan": "Uzbekistan",
+      "uzbekistan_desc": "Rail delivery to Uzbekistan",
+      "kazakhstan": "Kazakhstan",
+      "kazakhstan_desc": "Rail delivery to Kazakhstan",
+      "afghanistan": "Afghanistan (Galaba)",
+      "afghanistan_desc": "Rail delivery to Afghanistan via Galaba terminal. Further transportation inside Afghanistan is arranged by the buyer.",
+      "tajikistan": "Tajikistan",
+      "tajikistan_desc": "Rail connection through Uzbekistan"
+    },
+    "incoterms": {
+      "title": "Delivery Terms (Incoterms)",
+      "fob": "Free on Board - Buyer arranges shipping",
+      "cif": "Cost, Insurance & Freight included",
+      "dap": "Delivered at Place (Galaba)",
+      "ddp": "Delivered Duty Paid - All-inclusive"
+    },
+    "cta": {
+      "title": "Discuss Your Logistics Needs",
+      "subtitle": "We can customize delivery terms based on your requirements",
+      "button": "Contact Us"
+    }
+  },
+  "compliance": {
+    "title": "Compliance & Documentation",
+    "subtitle": "ZOB TRADE LLC operates strictly in accordance with international trade and compliance requirements",
+    "compliance": "Compliance",
+    "kyc_aml": {
+      "description": "Full KYC / AML compliance for all transactions and counterparties.",
+      "item1": "Full customer verification process",
+      "item2": "Sanctions screening",
+      "item3": "Licensed petroleum trading activities"
+    },
+    "inspection": {
+      "title": "Independent Inspection",
+      "description": "SGS / Intertek inspection available upon request for all shipments."
+    },
+    "contracts": {
+      "title": "Contract-Based Supply",
+      "description": "All transactions are governed by formal contracts with clear terms and conditions.",
+      "item1": "Contract-based supply only",
+      "item2": "Clear payment terms"
+    },
+    "payment": {
+      "title": "Bank-to-Bank Payments",
+      "description": "All payments are processed through official banking channels only.",
+      "note": "No cash transactions. No grey or non-transparent schemes."
+    },
+    "documents": {
+      "title": "Available Documents",
+      "product_specs": "Product Specifications",
+      "certificates": "Quality Certificates",
+      "inspection": "Inspection Reports",
+      "bl": "Bills of Lading",
+      "note": "All documents available upon request for verified buyers"
+    },
+    "clients": {
+      "title": "We Work With",
+      "item1": "International banks",
+      "item2": "Government buyers",
+      "item3": "National oil companies",
+      "item4": "Large industrial consumers"
+    },
+    "cta": {
+      "title": "Questions About Compliance?",
+      "subtitle": "Contact us to learn more about our compliance procedures",
+      "button": "Contact Us"
+    }
+  },
+  "markets": {
+    "title": "Markets",
+    "subtitle": "We supply petroleum products to Central Asia",
+    "regions": {
+      "title": "Markets We Serve",
+      "uzbekistan": "Uzbekistan",
+      "kazakhstan": "Kazakhstan",
+      "afghanistan": "Afghanistan",
+      "tajikistan": "Tajikistan",
+      "azerbaijan": "Azerbaijan",
+      "turkey": "Turkey"
+    },
+    "clients": {
+      "title": "Our Clients",
+      "government": "Government & State Buyers",
+      "government_desc": "State energy companies and government procurement",
+      "private": "Private Traders & Distributors",
+      "private_desc": "Regional fuel trading companies",
+      "traders": "Industrial Consumers",
+      "traders_desc": "Manufacturing and production facilities",
+      "industrial": "Infrastructure",
+      "industrial_desc": "Infrastructure and construction projects"
+    },
+    "why": {
+      "title": "Why Choose Us",
+      "location_title": "Strategic Location",
+      "location_desc": "Georgia provides optimal access to Central Asian markets",
+      "compliance_title": "Full Compliance",
+      "compliance_desc": "KYC/AML procedures and transparent operations",
+      "flexible_title": "Physical Supplier",
+      "flexible_desc": "Own refinery, tankers, and infrastructure - not an intermediary"
+    },
+    "cta": {
+      "title": "Ready to Partner?",
+      "subtitle": "Contact us to discuss your fuel supply requirements",
+      "button": "Get in Touch"
+    }
+  },
+  "contact": {
+    "title": "Contact / RFQ",
+    "subtitle": "ZOB TRADE LLC, Georgia, Tbilisi",
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "address_value": "Georgia, Tbilisi",
+      "channels": "For all commercial inquiries, quotations and cooperation requests, please contact us via secure communication channels:",
+      "note": "All communications are handled directly by the authorized company representative.",
+      "whatsapp": "Message us on WhatsApp",
+      "telegram": "Message us on Telegram"
+    },
+    "form": {
+      "title": "Request for Quotation",
+      "company": "Company Name",
+      "contact_person": "Contact Person",
+      "email": "Email",
+      "phone": "Phone / WhatsApp / Telegram",
+      "product": "Product",
+      "select_product": "Select a product",
+      "volume": "Volume Required",
+      "volume_placeholder": "e.g., 5000 MT/month",
+      "destination": "Destination Country",
+      "select_destination": "Select destination",
+      "other": "Other",
+      "incoterms": "Preferred Incoterms",
+      "select_incoterms": "Select incoterms",
+      "message": "Additional Message",
+      "submit": "Submit Request"
+    }
+  }
+}

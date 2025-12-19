@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "home": "Ana səhifə",
+    "about": "Haqqımızda",
+    "products": "Məhsullar",
+    "logistics": "Logistika",
+    "compliance": "Uyğunluq",
+    "markets": "Bazarlar",
+    "contact": "Əlaqə"
+  },
+  "footer": {
+    "description": "ZOB TRADE LLC Gürcüstanda yerləşən 25 illik təcrübəyə malik neft ticarəti və təchizat şirkətidir, tam fiziki təchizat zəncirində fəaliyyət göstərir.",
+    "quick_links": "Sürətli keçidlər",
+    "contact": "Bizimlə əlaqə",
+    "rights": "Bütün hüquqlar qorunur."
+  },
+  "seo": {
+    "home": {
+      "title": "Gürcüstandan yanacaq və neft məhsulları təchizatçısı",
+      "description": "ZobTrade - Gürcüstandan Mərkəzi Asiyaya topdan yanacaq və neft məhsulları təchizatçısı.",
+      "keywords": "yanacaq təchizatçısı gürcüstan, neft ticarəti, dizel en590"
+    },
+    "about": {
+      "title": "Haqqımızda",
+      "description": "ZobTrade haqqında öyrənin - Gürcüstandan etibarlı yanacaq təchizatçınız.",
+      "keywords": "zobtrade şirkəti, yanacaq ticarəti gürcüstan"
+    },
+    "products": {
+      "title": "Məhsullarımız",
+      "description": "Dizel EN 590, Benzin A-92, A-95 - topdan neft məhsulları.",
+      "keywords": "dizel en590, benzin a92, benzin a95"
+    },
+    "logistics": {
+      "title": "Logistika və marşrutlar",
+      "description": "Gürcüstan limanlarından Mərkəzi Asiyaya dəmir yolu və dəniz logistikası.",
+      "keywords": "yanacaq logistikası, dəmir yolu nəqliyyatı, gürcüstan limanları"
+    },
+    "compliance": {
+      "title": "Uyğunluq və sənədlər",
+      "description": "Tam KYC/AML uyğunluğu, SGS/Intertek yoxlaması.",
+      "keywords": "kyc aml uyğunluq, sgs yoxlama"
+    },
+    "markets": {
+      "title": "Bazarlar və müştərilər",
+      "description": "Özbəkistan, Qazaxıstan, Əfqanıstan, Tacikistan və digər Mərkəzi Asiya bazarlarına xidmət.",
+      "keywords": "mərkəzi asiya yanacaq bazarı"
+    },
+    "contact": {
+      "title": "Əlaqə",
+      "description": "Dizel və benzin məhsulları üçün qiymət soruşun.",
+      "keywords": "yanacaq sorğusu, neft məhsulları əlaqə"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Gürcüstandan yanacaq və neft məhsulları təchizatçısı",
+      "subtitle": "Mərkəzi Asiyaya etibarlı topdan təchizat",
+      "cta": "Qiymət soruşun",
+      "georgia_central_asia": "Gürcüstan → Mərkəzi Asiya"
+    },
+    "trust": {
+      "years": "İllik təcrübə",
+      "tons": "Ton ixrac edilib",
+      "countries": "Ölkəyə xidmət",
+      "compliance": "Uyğunluq"
+    },
+    "products": {
+      "title": "Məhsullarımız",
+      "subtitle": "Topdan satış və ixrac üçün yüksək keyfiyyətli neft məhsulları",
+      "diesel_desc": "Sənaye və kommersiya istifadəsi üçün Avropa standartı dizel yanacağı",
+      "gasoline92_desc": "Ümumi avtomobil tətbiqləri üçün adi benzin",
+      "gasoline95_desc": "Yüksək performans tələbləri üçün premium benzin",
+      "view_all": "Bütün məhsulları göstər"
+    },
+    "logistics": {
+      "title": "Logistika və marşrutlar",
+      "subtitle": "Gürcüstan limanları vasitəsilə Mərkəzi Asiyaya səmərəli çatdırılma",
+      "ports_title": "Gürcüstan limanları",
+      "rail_title": "Dəmir yolu əlaqələri",
+      "incoterms_title": "Dəstəklənən Incoterms",
+      "map_placeholder": "Logistika marşrutu xəritəsi"
+    },
+    "compliance": {
+      "title": "Tam uyğunluq",
+      "contracts": "Müqavilə əsaslı",
+      "bank": "Bank-Bank",
+      "no_grey": "Boz sxemlər yoxdur"
+    },
+    "cta": {
+      "title": "Başlamağa hazırsınız?",
+      "subtitle": "Neft məhsulları ehtiyaclarınız üçün 24 saat ərzində qiymət alın",
+      "button": "İndi əlaqə saxlayın"
+    }
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "subtitle": "Gürcüstandan Mərkəzi Asiyaya neft ticarətində etibarlı tərəfdaşınız",
+    "who_we_are": {
+      "title": "Biz kimik",
+      "p1": "ZobTrade Gürcüstanda yerləşən, Mərkəzi Asiya bazarlarına topdan yanacaq təchizatı üzrə ixtisaslaşmış qeydiyyatlı neft ticarəti şirkətidir.",
+      "p2": "Biz Gürcüstanın əsas limanları - Poti, Kulevi və Batumi vasitəsilə fəaliyyət göstəririk.",
+      "p3": "Ticarət modelimiz şəffaflıq və uyğunluq üzərində qurulub."
+    },
+    "company_info": {
+      "title": "Şirkət məlumatları",
+      "legal_name": "Hüquqi ad",
+      "registration": "Qeydiyyat ölkəsi",
+      "experience": "Təcrübə",
+      "years": "il",
+      "regions": "Fəaliyyət regionları",
+      "regions_value": "Gürcüstan, Mərkəzi Asiya"
+    },
+    "ports": {
+      "title": "Limanlarımız",
+      "poti_desc": "Mərkəzi Asiyaya dəmir yolu əlaqəsi olan dərin su limanı",
+      "kulevi_desc": "Müasir infrastruktura malik ixtisaslaşdırılmış neft terminalı",
+      "batumi_desc": "Neft məhsullarının emalı üçün strateji liman"
+    },
+    "model": {
+      "title": "Ticarət modelimiz",
+      "step1_title": "Tədarük",
+      "step1_desc": "Biz neft məhsullarını təsdiqlənmiş təchizatçılardan alırıq",
+      "step2_title": "Keyfiyyət nəzarəti",
+      "step2_desc": "Yükləmə və boşaltmada SGS/Intertek yoxlaması",
+      "step3_title": "Logistika",
+      "step3_desc": "Gürcüstan limanları vasitəsilə dəmir yolu və dəniz nəqliyyatı",
+      "step4_title": "Çatdırılma",
+      "step4_desc": "Tam sənədlərlə təyinat yerinə son çatdırılma"
+    },
+    "cta": {
+      "title": "Bizimlə işləmək istəyirsiniz?",
+      "subtitle": "Tərəfdaşlıq imkanları və qiymətlər üçün bizimlə əlaqə saxlayın",
+      "button": "Əlaqə saxlayın"
+    }
+  },
+  "products": {
+    "title": "Məhsullarımız",
+    "subtitle": "Topdan satış və Mərkəzi Asiyaya ixrac üçün yüksək keyfiyyətli neft məhsulları",
+    "specifications": "Spesifikasiyalar",
+    "specs_note": "Tam spesifikasiyalar sorğu ilə mövcuddur",
+    "bulk": "Topdan təchizat",
+    "monthly": "Aylıq müqavilələr",
+    "diesel": {
+      "description": "Sənaye, kommersiya və avtomobil tətbiqlərinə uyğun Avropa standartı ultra aşağı kükürdlü dizel yanacağı.",
+      "sulfur": "Kükürd tərkibi",
+      "cetane": "Setan nömrəsi",
+      "density": "Sıxlıq"
+    },
+    "gasoline92": {
+      "description": "Ümumi avtomobil istifadəsi üçün ideal olan Avro standartlarına uyğun adi qurğuşunsuz benzin."
+    },
+    "gasoline95": {
+      "description": "Yüksək performanslı avtomobillər üçün yüksək oktan nömrəli premium qurğuşunsuz benzin."
+    },
+    "gasoline": {
+      "octane": "Oktan nömrəsi",
+      "sulfur": "Kükürd tərkibi",
+      "benzene": "Benzol tərkibi"
+    },
+    "origin": {
+      "title": "Məhsul mənşəyi",
+      "description": "Məhsul mənşəyi və ətraflı spesifikasiyalar sorğu əsasında təqdim edilir."
+    },
+    "cta": {
+      "title": "Qiymət lazımdır?",
+      "subtitle": "Məhsul tələbləriniz və həcminizlə bizimlə əlaqə saxlayın",
+      "button": "Qiymət soruşun"
+    }
+  },
+  "logistics": {
+    "title": "Logistika və marşrutlar",
+    "subtitle": "Müəyyən edilmiş marşrutlar üzrə Gürcüstandan Mərkəzi Asiyaya səmərəli neft məhsulları çatdırılması",
+    "ports": {
+      "title": "Gürcüstan limanları",
+      "poti_desc": "Qara dəniz sahilindəki əsas dərin su limanı",
+      "poti_feature1": "Mərkəzi Asiyaya dəmir yolu əlaqəsi",
+      "poti_feature2": "Konteyner və kütləvi yük emalı",
+      "kulevi_desc": "İxtisaslaşdırılmış neft və neft məhsulları terminalı",
+      "kulevi_feature1": "Müasir neft emalı qurğuları",
+      "kulevi_feature2": "Böyük saxlama tutumu",
+      "batumi_desc": "Strateji neft məhsulları emalı limanı",
+      "batumi_feature1": "Neft terminal infrastrukturu",
+      "batumi_feature2": "Tranzit imkanları"
+    },
+    "routes": {
+      "title": "Dəmir yolu marşrutları",
+      "map_placeholder": "Dəmir yolu əlaqələri ilə marşrut xəritəsi",
+      "uzbekistan": "Özbəkistan",
+      "uzbekistan_desc": "Qazaxıstan dəhlizi vasitəsilə birbaşa dəmir yolu əlaqəsi",
+      "kazakhstan": "Qazaxıstan",
+      "kazakhstan_desc": "Xəzər keçidi ilə dəmir yolu nəqliyyatı",
+      "afghanistan": "Əfqanıstan (Galaba)",
+      "afghanistan_desc": "Galaba terminalı vasitəsilə Əfqanıstana dəmiryolu çatdırılması. Əfqanıstan daxilində sonrakı daşınma alıcı tərəfindən təşkil edilir.",
+      "tajikistan": "Tacikistan",
+      "tajikistan_desc": "Özbəkistan vasitəsilə dəmir yolu əlaqəsi"
+    },
+    "incoterms": {
+      "title": "Çatdırılma şərtləri (Incoterms)",
+      "fob": "Free on Board - Alıcı göndərişi təşkil edir",
+      "cif": "Qiymət, sığorta və fraxt daxildir",
+      "dap": "Yerə çatdırılma - Təyinat yerinizə",
+      "ddp": "Gömrük ödənilmiş halda çatdırılma - Hamısı daxildir"
+    },
+    "cta": {
+      "title": "Logistika ehtiyaclarınızı müzakirə edin",
+      "subtitle": "Çatdırılma şərtlərini tələblərinizə uyğunlaşdıra bilərik",
+      "button": "Əlaqə saxlayın"
+    }
+  },
+  "compliance": {
+    "title": "Uyğunluq və sənədlər",
+    "subtitle": "Beynəlxalq ticarət standartlarına tam şəffaflıq və uyğunluq",
+    "compliance": "Uyğunluq",
+    "kyc_aml": {
+      "description": "Bütün əməliyyatlar üçün ciddi KYC və AML prosedurlarını qoruyuruq.",
+      "item1": "Tam müştəri yoxlama prosesi",
+      "item2": "Sanksiya yoxlaması",
+      "item3": "Əməliyyat monitorinqi"
+    },
+    "inspection": {
+      "title": "Müstəqil yoxlama",
+      "description": "Bütün göndərişlər beynəlxalq tanınmış yoxlama şirkətləri tərəfindən yoxlanılır."
+    },
+    "contracts": {
+      "title": "Müqaviləyə əsaslanan təchizat",
+      "description": "Bütün əməliyyatlar aydın şərtlərlə rəsmi müqavilələrlə idarə olunur.",
+      "item1": "Standart sənaye müqavilələri",
+      "item2": "Aydın ödəniş şərtləri"
+    },
+    "payment": {
+      "title": "Bank-bank ödənişləri",
+      "description": "Bütün ödənişlər yalnız rəsmi bank kanalları vasitəsilə emal edilir.",
+      "note": "Nağd pul əməliyyatları yoxdur. Boz sxemlər yoxdur."
+    },
+    "documents": {
+      "title": "Mövcud sənədlər",
+      "product_specs": "Məhsul spesifikasiyaları",
+      "certificates": "Keyfiyyət sertifikatları",
+      "inspection": "Yoxlama hesabatları",
+      "bl": "Konosamentlər",
+      "note": "Bütün sənədlər təsdiqlənmiş alıcılar üçün sorğu ilə mövcuddur"
+    },
+    "cta": {
+      "title": "Uyğunluq haqqında suallar?",
+      "subtitle": "Uyğunluq prosedurlarımız haqqında daha çox öyrənmək üçün bizimlə əlaqə saxlayın",
+      "button": "Əlaqə saxlayın"
+    }
+  },
+  "markets": {
+    "title": "Bazarlar və müştərilər",
+    "subtitle": "Bütün Mərkəzi Asiya boyunca dövlət və özəl alıcılara xidmət",
+    "regions": {
+      "title": "Xidmət etdiyimiz bazarlar",
+      "uzbekistan": "Özbəkistan",
+      "kazakhstan": "Qazaxıstan",
+      "afghanistan": "Əfqanıstan",
+      "tajikistan": "Tacikistan",
+      "azerbaijan": "Azərbaycan",
+      "turkey": "Türkiyə"
+    },
+    "clients": {
+      "title": "Müştərilərimiz",
+      "government": "Dövlət alıcıları",
+      "government_desc": "Dövlət enerji şirkətləri və dövlət satınalmaları",
+      "private": "Özəl şirkətlər",
+      "private_desc": "Sənaye və kommersiya yanacaq istehlakçıları",
+      "traders": "Tüccarlar və distribütorlar",
+      "traders_desc": "Regional yanacaq ticarəti şirkətləri",
+      "industrial": "Sənaye istehlakçıları",
+      "industrial_desc": "İstehsal və sənaye müəssisələri"
+    },
+    "why": {
+      "title": "Niyə bizi seçməlisiniz",
+      "location_title": "Strateji yer",
+      "location_desc": "Gürcüstan Mərkəzi Asiya bazarlarına optimal giriş təmin edir",
+      "compliance_title": "Tam uyğunluq",
+      "compliance_desc": "KYC/AML prosedurları və şəffaf əməliyyatlar",
+      "flexible_title": "Çevik şərtlər",
+      "flexible_desc": "Müxtəlif Incoterms və müqavilə variantları mövcuddur"
+    },
+    "cta": {
+      "title": "Tərəfdaşlığa hazırsınız?",
+      "subtitle": "Yanacaq təchizatı tələblərinizi müzakirə etmək üçün bizimlə əlaqə saxlayın",
+      "button": "Əlaqə saxlayın"
+    }
+  },
+  "contact": {
+    "title": "Əlaqə",
+    "subtitle": "Qiymət alın və ya neft məhsulları və xidmətlərimiz haqqında soruşun",
+    "info": {
+      "title": "Əlaqə məlumatları",
+      "address": "Ünvan",
+      "email": "Email",
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp-da yazın",
+      "telegram": "Telegram-da yazın"
+    },
+    "form": {
+      "title": "Qiymət sorğusu",
+      "company": "Şirkət adı",
+      "contact_person": "Əlaqə şəxsi",
+      "email": "Email",
+      "phone": "Telefon / WhatsApp",
+      "product": "Məhsul",
+      "select_product": "Məhsul seçin",
+      "volume": "Tələb olunan həcm",
+      "volume_placeholder": "məs., 5000 ton/ay",
+      "destination": "Təyinat ölkəsi",
+      "select_destination": "Təyinat seçin",
+      "other": "Digər",
+      "incoterms": "Üstünlük verilən Incoterms",
+      "select_incoterms": "Incoterms seçin",
+      "message": "Əlavə mesaj",
+      "submit": "Sorğunu göndər"
+    }
+  }
+}

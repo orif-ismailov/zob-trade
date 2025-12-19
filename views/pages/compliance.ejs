@@ -1,0 +1,147 @@
+<%- include('../layouts/main', { body: `
+
+<!-- Page Header -->
+<section class="bg-primary-900 text-white py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-bold mb-4">${__('compliance.title')}</h1>
+    <p class="text-xl text-gray-300 max-w-3xl">${__('compliance.subtitle')}</p>
+  </div>
+</section>
+
+<!-- Compliance Standards -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12">
+
+      <!-- KYC/AML -->
+      <div class="bg-gray-50 rounded-2xl p-8">
+        <div class="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-6">
+          <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold text-primary-900 mb-4">KYC / AML ${__('compliance.compliance')}</h2>
+        <p class="text-gray-600 mb-6">${__('compliance.kyc_aml.description')}</p>
+        <ul class="space-y-3">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">${__('compliance.kyc_aml.item1')}</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">${__('compliance.kyc_aml.item2')}</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">${__('compliance.kyc_aml.item3')}</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Inspection -->
+      <div class="bg-gray-50 rounded-2xl p-8">
+        <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold text-primary-900 mb-4">${__('compliance.inspection.title')}</h2>
+        <p class="text-gray-600 mb-6">${__('compliance.inspection.description')}</p>
+        <div class="flex gap-4">
+          <div class="bg-white rounded-lg px-4 py-2 border">
+            <span class="font-bold text-primary-900">SGS</span>
+          </div>
+          <div class="bg-white rounded-lg px-4 py-2 border">
+            <span class="font-bold text-primary-900">Intertek</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contract-based -->
+      <div class="bg-gray-50 rounded-2xl p-8">
+        <div class="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
+          <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold text-primary-900 mb-4">${__('compliance.contracts.title')}</h2>
+        <p class="text-gray-600 mb-6">${__('compliance.contracts.description')}</p>
+        <ul class="space-y-3">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">${__('compliance.contracts.item1')}</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-gray-700">${__('compliance.contracts.item2')}</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Payment -->
+      <div class="bg-gray-50 rounded-2xl p-8">
+        <div class="w-16 h-16 bg-accent-100 rounded-xl flex items-center justify-center mb-6">
+          <svg class="w-8 h-8 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-bold text-primary-900 mb-4">${__('compliance.payment.title')}</h2>
+        <p class="text-gray-600 mb-6">${__('compliance.payment.description')}</p>
+        <div class="bg-white rounded-lg p-4 border border-green-200">
+          <p class="text-green-700 font-medium">${__('compliance.payment.note')}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Documents Available -->
+<section class="py-16 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-primary-900 mb-12 text-center">${__('compliance.documents.title')}</h2>
+
+    <div class="grid md:grid-cols-4 gap-6 text-center">
+      <div class="bg-white rounded-xl p-6">
+        <img src="/images/documents/specs.svg" alt="Specifications" class="w-12 h-12 mx-auto mb-3">
+        <p class="font-medium text-primary-900">${__('compliance.documents.product_specs')}</p>
+      </div>
+      <div class="bg-white rounded-xl p-6">
+        <img src="/images/documents/certificate.svg" alt="Certificates" class="w-12 h-12 mx-auto mb-3">
+        <p class="font-medium text-primary-900">${__('compliance.documents.certificates')}</p>
+      </div>
+      <div class="bg-white rounded-xl p-6">
+        <img src="/images/documents/inspection.svg" alt="Inspection" class="w-12 h-12 mx-auto mb-3">
+        <p class="font-medium text-primary-900">${__('compliance.documents.inspection')}</p>
+      </div>
+      <div class="bg-white rounded-xl p-6">
+        <img src="/images/documents/bill-of-lading.svg" alt="Bill of Lading" class="w-12 h-12 mx-auto mb-3">
+        <p class="font-medium text-primary-900">${__('compliance.documents.bl')}</p>
+      </div>
+    </div>
+
+    <p class="text-center text-gray-500 mt-8">${__('compliance.documents.note')}</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-primary-900 text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold mb-4">${__('compliance.cta.title')}</h2>
+    <p class="text-xl text-gray-300 mb-8">${__('compliance.cta.subtitle')}</p>
+    <a href="${langUrl('/contact')}" class="inline-flex items-center bg-accent-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-accent-700 transition-colors">
+      ${__('compliance.cta.button')}
+    </a>
+  </div>
+</section>
+
+` }) %>

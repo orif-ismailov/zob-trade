@@ -1,0 +1,13 @@
+const express = require('express');
+const router = express.Router();
+const formController = require('../controllers/formController');
+
+// RFQ form submission
+router.post('/rfq', formController.submitRFQ);
+
+// Health check
+router.get('/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
+module.exports = router;

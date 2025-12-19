@@ -1,0 +1,36 @@
+<!-- SEO Meta Tags -->
+<title><%= seo.title %> | ZobTrade</title>
+<meta name="description" content="<%= seo.description %>">
+<% if (seo.keywords) { %>
+<meta name="keywords" content="<%= seo.keywords %>">
+<% } %>
+
+<!-- Canonical URL -->
+<link rel="canonical" href="<%= seo.canonicalUrl %>">
+
+<!-- Hreflang tags for multilingual SEO -->
+<% seo.hreflangUrls.forEach(function(item) { %>
+<link rel="alternate" hreflang="<%= item.lang %>" href="<%= item.url %>">
+<% }); %>
+<link rel="alternate" hreflang="x-default" href="<%= seo.siteUrl %>/en">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="<%= seo.canonicalUrl %>">
+<meta property="og:title" content="<%= seo.title %>">
+<meta property="og:description" content="<%= seo.description %>">
+<meta property="og:image" content="<%= seo.defaultImage %>">
+<meta property="og:locale" content="<%= seo.locale %>">
+<meta property="og:site_name" content="<%= seo.siteName %>">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="<%= seo.canonicalUrl %>">
+<meta name="twitter:title" content="<%= seo.title %>">
+<meta name="twitter:description" content="<%= seo.description %>">
+<meta name="twitter:image" content="<%= seo.defaultImage %>">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+<%- JSON.stringify(organizationSchema) %>
+</script>

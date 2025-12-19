@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="dropGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="40%" style="stop-color:#2d2d2d"/>
+      <stop offset="65%" style="stop-color:#8B6914"/>
+      <stop offset="85%" style="stop-color:#D4A017"/>
+      <stop offset="100%" style="stop-color:#C5961A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5D56E"/>
+      <stop offset="50%" style="stop-color:#D4A017"/>
+      <stop offset="100%" style="stop-color:#C5961A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Oil Drop -->
+  <path d="M32,4
+           Q34,12 38,22
+           Q44,36 50,46
+           Q56,56 56,62
+           Q56,72 46,78
+           Q38,82 32,82
+           Q26,82 18,78
+           Q8,72 8,62
+           Q8,56 14,46
+           Q20,36 26,22
+           Q30,12 32,4 Z"
+        fill="url(#dropGrad)" transform="translate(0,-10) scale(0.95)"/>
+
+  <!-- Z Letter -->
+  <g transform="translate(32, 42)">
+    <path d="M-14,-16 L12,-16 L13,-14 L-6,-2 L12,-2 L13,0 L12,2 L-12,2 L-13,0 L6,-12 L-12,-12 L-14,-16 Z"
+          fill="url(#goldGrad)"/>
+  </g>
+</svg>

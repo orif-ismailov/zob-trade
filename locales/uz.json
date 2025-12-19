@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "products": "Mahsulotlar",
+    "logistics": "Logistika",
+    "compliance": "Muvofiqlik",
+    "markets": "Bozorlar",
+    "contact": "Aloqa"
+  },
+  "footer": {
+    "description": "ZOB TRADE LLC - Gruziyada ro'yxatdan o'tgan 25 yillik sanoat tajribasiga ega neft savdosi va ta'minot kompaniyasi, yoqilg'i ishlab chiqarish, saqlash va xalqaro yetkazib berishning to'liq fizik ta'minot zanjirida ishlaydi.",
+    "quick_links": "Tezkor havolalar",
+    "contact": "Biz bilan bog'laning",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "seo": {
+    "home": {
+      "title": "Gruziyadan yoqilg'i va neft mahsulotlari yetkazib beruvchi",
+      "description": "ZobTrade - Gruziyadan Markaziy Osiyoga ulgurji yoqilg'i va neft mahsulotlari yetkazib beruvchi. Dizel EN 590, Benzin A-92, A-95.",
+      "keywords": "yoqilg'i yetkazib beruvchi gruziya, neft savdosi, dizel en590"
+    },
+    "about": {
+      "title": "Biz haqimizda",
+      "description": "ZobTrade haqida bilib oling - Gruziyadan Markaziy Osiyo bozorlariga ishonchli yoqilg'i yetkazib beruvchi.",
+      "keywords": "zobtrade kompaniya, yoqilg'i savdosi gruziya"
+    },
+    "products": {
+      "title": "Bizning mahsulotlar",
+      "description": "Dizel EN 590, Benzin A-92, A-95 - ulgurji neft mahsulotlari.",
+      "keywords": "dizel en590, benzin a92, benzin a95"
+    },
+    "logistics": {
+      "title": "Logistika va yo'nalishlar",
+      "description": "Gruziya portlaridan Markaziy Osiyoga temir yo'l va dengiz logistikasi.",
+      "keywords": "yoqilg'i logistikasi, temir yo'l transporti, gruziya portlari"
+    },
+    "compliance": {
+      "title": "Muvofiqlik va hujjatlar",
+      "description": "To'liq KYC/AML muvofiqlik, SGS/Intertek tekshiruvi.",
+      "keywords": "kyc aml muvofiqlik, sgs tekshiruv"
+    },
+    "markets": {
+      "title": "Bozorlar va mijozlar",
+      "description": "O'zbekiston, Qozog'iston, Afg'oniston, Tojikiston va boshqa Markaziy Osiyo bozorlariga xizmat ko'rsatish.",
+      "keywords": "markaziy osiyo yoqilg'i bozori"
+    },
+    "contact": {
+      "title": "Aloqa",
+      "description": "Dizel va benzin mahsulotlari uchun narx so'rang.",
+      "keywords": "yoqilg'i so'rovi, neft mahsulotlari aloqa"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Gruziyadan yoqilg'i va neft mahsulotlari yetkazib beruvchi",
+      "subtitle": "Markaziy Osiyoga ishonchli ulgurji ta'minot",
+      "cta": "Narx so'rash",
+      "georgia_central_asia": "Gruziya → Markaziy Osiyo"
+    },
+    "trust": {
+      "years": "Yillik tajriba",
+      "tons": "Tonna eksport qilingan",
+      "countries": "Davlat xizmat ko'rsatilgan",
+      "compliance": "Muvofiqlik"
+    },
+    "products": {
+      "title": "Bizning mahsulotlar",
+      "subtitle": "Ulgurji savdo va eksport uchun yuqori sifatli neft mahsulotlari",
+      "diesel_desc": "Sanoat va tijorat foydalanish uchun Yevropa standartidagi dizel yoqilg'isi",
+      "gasoline92_desc": "Umumiy avtomobil qo'llanishi uchun oddiy benzin",
+      "gasoline95_desc": "Yuqori ishlash talablari uchun premium benzin",
+      "view_all": "Barcha mahsulotlarni ko'rish"
+    },
+    "logistics": {
+      "title": "Logistika va yo'nalishlar",
+      "subtitle": "Gruziya portlari orqali Markaziy Osiyoga samarali yetkazib berish",
+      "ports_title": "Gruziya portlari",
+      "rail_title": "Temir yo'l aloqalari",
+      "incoterms_title": "Qo'llab-quvvatlanadigan Incoterms",
+      "map_placeholder": "Logistika yo'nalishi xaritasi"
+    },
+    "compliance": {
+      "title": "To'liq muvofiqlik",
+      "contracts": "Shartnoma asosida",
+      "bank": "Bank-Bank",
+      "no_grey": "Kulrang sxemalarsiz"
+    },
+    "cta": {
+      "title": "Boshlashga tayyormisiz?",
+      "subtitle": "Neft mahsulotlari ehtiyojlaringiz uchun 24 soat ichida narx oling",
+      "button": "Hozir bog'laning"
+    }
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "subtitle": "Gruziyadan Markaziy Osiyoga neft savdosida ishonchli hamkoringiz",
+    "who_we_are": {
+      "title": "Biz kimmiz",
+      "p1": "ZobTrade - Gruziyada joylashgan, Markaziy Osiyo bozorlariga ulgurji yoqilg'i ta'minotiga ixtisoslashgan ro'yxatdan o'tgan neft savdo kompaniyasi.",
+      "p2": "Biz Gruziyaning asosiy portlari - Poti, Kulevi va Batumi orqali ishlaymiz.",
+      "p3": "Bizning savdo modelimiz shaffoflik va muvofiqlik ustiga qurilgan."
+    },
+    "company_info": {
+      "title": "Kompaniya ma'lumotlari",
+      "legal_name": "Yuridik nomi",
+      "registration": "Ro'yxatga olish davlati",
+      "experience": "Tajriba",
+      "years": "yil",
+      "regions": "Faoliyat hududlari",
+      "regions_value": "Gruziya, Markaziy Osiyo"
+    },
+    "ports": {
+      "title": "Bizning portlar",
+      "poti_desc": "Markaziy Osiyoga temir yo'l aloqasi bilan chuqur suv porti",
+      "kulevi_desc": "Zamonaviy infratuzilmaga ega ixtisoslashtirilgan neft terminali",
+      "batumi_desc": "Neft mahsulotlarini qayta ishlash uchun strategik port"
+    },
+    "model": {
+      "title": "Bizning savdo modeli",
+      "step1_title": "Ta'minot",
+      "step1_desc": "Biz neft mahsulotlarini tasdiqlangan yetkazib beruvchilardan olamiz",
+      "step2_title": "Sifat nazorati",
+      "step2_desc": "Yuklash va tushirishda SGS/Intertek tekshiruvi",
+      "step3_title": "Logistika",
+      "step3_desc": "Gruziya portlari orqali temir yo'l va dengiz transporti",
+      "step4_title": "Yetkazib berish",
+      "step4_desc": "To'liq hujjatlar bilan belgilangan joyga yakuniy yetkazib berish"
+    },
+    "cta": {
+      "title": "Biz bilan ishlashni xohlaysizmi?",
+      "subtitle": "Hamkorlik imkoniyatlari va narxlar uchun biz bilan bog'laning",
+      "button": "Bog'laning"
+    }
+  },
+  "products": {
+    "title": "Bizning mahsulotlar",
+    "subtitle": "Ulgurji savdo va Markaziy Osiyoga eksport uchun yuqori sifatli neft mahsulotlari",
+    "specifications": "Texnik xususiyatlar",
+    "specs_note": "To'liq spetsifikatsiyalar so'rov bo'yicha mavjud",
+    "bulk": "Ulgurji ta'minot",
+    "monthly": "Oylik shartnomalar",
+    "diesel": {
+      "description": "Sanoat, tijorat va avtomobil ilovalariga mos keladigan Yevropa standartidagi ultra past oltingugurt dizel yoqilg'isi.",
+      "sulfur": "Oltingugurt miqdori",
+      "cetane": "Setans raqami",
+      "density": "Zichlik"
+    },
+    "gasoline92": {
+      "description": "Umumiy avtomobil foydalanish uchun ideal bo'lgan Yevro standartlariga mos keladigan oddiy qo'rg'oshinsiz benzin."
+    },
+    "gasoline95": {
+      "description": "Yuqori ishlash avtomobillari uchun yuqori oktan raqamli premium qo'rg'oshinsiz benzin."
+    },
+    "gasoline": {
+      "octane": "Oktan raqami",
+      "sulfur": "Oltingugurt miqdori",
+      "benzene": "Benzol miqdori"
+    },
+    "origin": {
+      "title": "Mahsulot kelib chiqishi",
+      "description": "Mahsulot kelib chiqishi va batafsil spetsifikatsiyalar so'rov bo'yicha taqdim etiladi."
+    },
+    "cta": {
+      "title": "Narx kerakmi?",
+      "subtitle": "Mahsulot talablaringiz va hajmingiz bilan bog'laning",
+      "button": "Narx so'rash"
+    }
+  },
+  "logistics": {
+    "title": "Logistika va yo'nalishlar",
+    "subtitle": "Gruziyadan Markaziy Osiyoga belgilangan yo'nalishlar bo'yicha samarali neft mahsulotlari yetkazib berish",
+    "ports": {
+      "title": "Gruziya portlari",
+      "poti_desc": "Qora dengiz qirg'og'idagi asosiy chuqur suv porti",
+      "poti_feature1": "Markaziy Osiyoga temir yo'l aloqasi",
+      "poti_feature2": "Konteyner va ommaviy yuklarni qayta ishlash",
+      "kulevi_desc": "Ixtisoslashtirilgan neft va neft mahsulotlari terminali",
+      "kulevi_feature1": "Zamonaviy neftni qayta ishlash imkoniyatlari",
+      "kulevi_feature2": "Katta saqlash hajmi",
+      "batumi_desc": "Strategik neft mahsulotlarini qayta ishlash porti",
+      "batumi_feature1": "Neft terminal infratuzilmasi",
+      "batumi_feature2": "Tranzit imkoniyatlari"
+    },
+    "routes": {
+      "title": "Temir yo'l yo'nalishlari",
+      "map_placeholder": "Temir yo'l aloqalari bilan yo'nalish xaritasi",
+      "uzbekistan": "O'zbekiston",
+      "uzbekistan_desc": "Qozog'iston koridori orqali to'g'ridan-to'g'ri temir yo'l aloqasi",
+      "kazakhstan": "Qozog'iston",
+      "kazakhstan_desc": "Kaspiy kesib o'tish orqali temir yo'l transporti",
+      "afghanistan": "Afg'oniston (Galaba)",
+      "afghanistan_desc": "Galaba terminali orqali Afg'onistonga temir yo'l yetkazib berish. Afg'oniston ichidagi keyingi tashish xaridor tomonidan tashkil etiladi.",
+      "tajikistan": "Tojikiston",
+      "tajikistan_desc": "O'zbekiston orqali temir yo'l aloqasi"
+    },
+    "incoterms": {
+      "title": "Yetkazib berish shartlari (Incoterms)",
+      "fob": "Free on Board - Xaridor jo'natishni tashkil qiladi",
+      "cif": "Narx, sug'urta va fracht kiritilgan",
+      "dap": "Joyga yetkazib berish - Sizning manzilingizga",
+      "ddp": "Bojxona to'langan holda yetkazib berish - Hammasi kiritilgan"
+    },
+    "cta": {
+      "title": "Logistika ehtiyojlaringizni muhokama qiling",
+      "subtitle": "Biz yetkazib berish shartlarini talablaringizga moslashtirishimiz mumkin",
+      "button": "Bog'laning"
+    }
+  },
+  "compliance": {
+    "title": "Muvofiqlik va hujjatlar",
+    "subtitle": "Xalqaro savdo standartlariga to'liq shaffoflik va muvofiqlik",
+    "compliance": "Muvofiqlik",
+    "kyc_aml": {
+      "description": "Biz barcha tranzaksiyalar uchun qat'iy KYC va AML tartiblarini saqlaymiz.",
+      "item1": "Mijozni to'liq tekshirish jarayoni",
+      "item2": "Sanktsiyalarni tekshirish",
+      "item3": "Tranzaksiyalarni monitoring qilish"
+    },
+    "inspection": {
+      "title": "Mustaqil tekshiruv",
+      "description": "Barcha jo'natmalar xalqaro tan olingan tekshirish kompaniyalari tomonidan tekshiriladi."
+    },
+    "contracts": {
+      "title": "Shartnomaga asoslangan ta'minot",
+      "description": "Barcha tranzaksiyalar aniq shartlar bilan rasmiy shartnomalar tomonidan boshqariladi.",
+      "item1": "Standart sanoat shartnomalar",
+      "item2": "Aniq to'lov shartlari"
+    },
+    "payment": {
+      "title": "Bank-bank to'lovlari",
+      "description": "Barcha to'lovlar faqat rasmiy bank kanallari orqali qayta ishlanadi.",
+      "note": "Naqd pul operatsiyalarisiz. Kulrang sxemalarsiz."
+    },
+    "documents": {
+      "title": "Mavjud hujjatlar",
+      "product_specs": "Mahsulot spetsifikatsiyalari",
+      "certificates": "Sifat sertifikatlari",
+      "inspection": "Tekshirish hisobotlari",
+      "bl": "Konosamentlar",
+      "note": "Barcha hujjatlar tasdiqlangan xaridorlar uchun so'rov bo'yicha mavjud"
+    },
+    "cta": {
+      "title": "Muvofiqlik bo'yicha savollar?",
+      "subtitle": "Muvofiqlik tartiblarimiz haqida ko'proq ma'lumot olish uchun biz bilan bog'laning",
+      "button": "Bog'laning"
+    }
+  },
+  "markets": {
+    "title": "Bozorlar va mijozlar",
+    "subtitle": "Butun Markaziy Osiyo bo'ylab davlat va xususiy xaridorlarga xizmat ko'rsatish",
+    "regions": {
+      "title": "Biz xizmat ko'rsatadigan bozorlar",
+      "uzbekistan": "O'zbekiston",
+      "kazakhstan": "Qozog'iston",
+      "afghanistan": "Afg'oniston",
+      "tajikistan": "Tojikiston",
+      "azerbaijan": "Ozarbayjon",
+      "turkey": "Turkiya"
+    },
+    "clients": {
+      "title": "Bizning mijozlar",
+      "government": "Davlat xaridorlari",
+      "government_desc": "Davlat energiya kompaniyalari va davlat xaridlari",
+      "private": "Xususiy kompaniyalar",
+      "private_desc": "Sanoat va tijorat yoqilg'i iste'molchilari",
+      "traders": "Treyderlar va distribyutorlar",
+      "traders_desc": "Mintaqaviy yoqilg'i savdo kompaniyalari",
+      "industrial": "Sanoat iste'molchilari",
+      "industrial_desc": "Ishlab chiqarish va sanoat korxonalari"
+    },
+    "why": {
+      "title": "Nega bizni tanlash kerak",
+      "location_title": "Strategik joylashuv",
+      "location_desc": "Gruziya Markaziy Osiyo bozorlariga optimal kirish imkonini beradi",
+      "compliance_title": "To'liq muvofiqlik",
+      "compliance_desc": "KYC/AML tartiblari va shaffof operatsiyalar",
+      "flexible_title": "Moslashuvchan shartlar",
+      "flexible_desc": "Turli Incoterms va shartnoma variantlari mavjud"
+    },
+    "cta": {
+      "title": "Hamkorlikka tayyormisiz?",
+      "subtitle": "Yoqilg'i ta'minoti talablaringizni muhokama qilish uchun biz bilan bog'laning",
+      "button": "Bog'laning"
+    }
+  },
+  "contact": {
+    "title": "Aloqa",
+    "subtitle": "Narx oling yoki neft mahsulotlari va xizmatlarimiz haqida so'rang",
+    "info": {
+      "title": "Aloqa ma'lumotlari",
+      "address": "Manzil",
+      "email": "Email",
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp orqali yozing",
+      "telegram": "Telegram orqali yozing"
+    },
+    "form": {
+      "title": "Narx so'rovi",
+      "company": "Kompaniya nomi",
+      "contact_person": "Aloqa shaxsi",
+      "email": "Email",
+      "phone": "Telefon / WhatsApp",
+      "product": "Mahsulot",
+      "select_product": "Mahsulotni tanlang",
+      "volume": "Talab qilinadigan hajm",
+      "volume_placeholder": "masalan, 5000 tonna/oy",
+      "destination": "Manzil davlati",
+      "select_destination": "Manzilni tanlang",
+      "other": "Boshqa",
+      "incoterms": "Afzal ko'rilgan Incoterms",
+      "select_incoterms": "Incoterms tanlang",
+      "message": "Qo'shimcha xabar",
+      "submit": "So'rovni yuborish"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+<%- include('../layouts/main', { body: `
+
+<!-- Page Header -->
+<section class="bg-primary-900 text-white py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-bold mb-4">${__('contact.title')}</h1>
+    <p class="text-xl text-gray-300 max-w-3xl">${__('contact.subtitle')}</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-3 gap-12">
+
+      <!-- Contact Info -->
+      <div class="lg:col-span-1">
+        <h2 class="text-2xl font-bold text-primary-900 mb-6">${__('contact.info.title')}</h2>
+
+        <div class="space-y-6">
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="font-semibold text-primary-900">${__('contact.info.address')}</h3>
+              <p class="text-gray-600">Tbilisi, Georgia</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="font-semibold text-primary-900">${__('contact.info.email')}</h3>
+              <a href="mailto:info@zobtrade.com" class="text-accent-600 hover:underline">info@zobtrade.com</a>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="font-semibold text-primary-900">WhatsApp</h3>
+              <a href="https://wa.me/message/BUE5HN3QPJROB1" target="_blank" rel="noopener noreferrer" class="text-green-600 hover:text-green-700 font-medium">${__('contact.info.whatsapp')}</a>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="font-semibold text-primary-900">Telegram</h3>
+              <a href="https://t.me/zob_trade_oil" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 font-medium">${__('contact.info.telegram')}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RFQ Form -->
+      <div class="lg:col-span-2">
+        <div class="bg-gray-50 rounded-2xl p-8">
+          <h2 class="text-2xl font-bold text-primary-900 mb-6">${__('contact.form.title')}</h2>
+
+          <form id="rfq-form" class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="company" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.company')} *
+                </label>
+                <input type="text" id="company" name="company" required
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+              </div>
+
+              <div>
+                <label for="contactPerson" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.contact_person')} *
+                </label>
+                <input type="text" id="contactPerson" name="contactPerson" required
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.email')} *
+                </label>
+                <input type="email" id="email" name="email" required
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+              </div>
+
+              <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.phone')} *
+                </label>
+                <input type="tel" id="phone" name="phone" required
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="product" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.product')} *
+                </label>
+                <select id="product" name="product" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+                  <option value="">${__('contact.form.select_product')}</option>
+                  <option value="diesel-en590">Diesel EN 590</option>
+                  <option value="gasoline-a92">Gasoline A-92</option>
+                  <option value="gasoline-a95">Gasoline A-95</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="volume" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.volume')} *
+                </label>
+                <input type="text" id="volume" name="volume" required
+                       placeholder="${__('contact.form.volume_placeholder')}"
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <label for="destination" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.destination')} *
+                </label>
+                <select id="destination" name="destination" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+                  <option value="">${__('contact.form.select_destination')}</option>
+                  <option value="Uzbekistan">Uzbekistan</option>
+                  <option value="Kazakhstan">Kazakhstan</option>
+                  <option value="Afghanistan">Afghanistan</option>
+                  <option value="Tajikistan">Tajikistan</option>
+                  <option value="Azerbaijan">Azerbaijan</option>
+                  <option value="Turkey">Turkey</option>
+                  <option value="Other">${__('contact.form.other')}</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="incoterms" class="block text-sm font-medium text-gray-700 mb-2">
+                  ${__('contact.form.incoterms')} *
+                </label>
+                <select id="incoterms" name="incoterms" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500">
+                  <option value="">${__('contact.form.select_incoterms')}</option>
+                  <option value="FOB">FOB</option>
+                  <option value="CIF">CIF</option>
+                  <option value="DAP">DAP</option>
+                  <option value="DDP">DDP</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 mb-2">
+                ${__('contact.form.message')}
+              </label>
+              <textarea id="message" name="message" rows="4"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"></textarea>
+            </div>
+
+            <div id="form-message" class="hidden"></div>
+
+            <button type="submit" id="submit-btn"
+                    class="w-full bg-accent-600 text-white py-4 rounded-lg text-lg font-semibold hover:bg-accent-700 transition-colors flex items-center justify-center">
+              <span>${__('contact.form.submit')}</span>
+              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.getElementById('rfq-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+
+  const submitBtn = document.getElementById('submit-btn');
+  const formMessage = document.getElementById('form-message');
+
+  submitBtn.disabled = true;
+  submitBtn.innerHTML = '<svg class="animate-spin h-5 w-5 mr-2" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path></svg> Sending...';
+
+  try {
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData);
+
+    const response = await fetch('/api/rfq', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+
+    const result = await response.json();
+
+    formMessage.classList.remove('hidden');
+    if (result.success) {
+      formMessage.className = 'bg-green-100 text-green-700 p-4 rounded-lg';
+      formMessage.textContent = result.message;
+      this.reset();
+    } else {
+      formMessage.className = 'bg-red-100 text-red-700 p-4 rounded-lg';
+      formMessage.textContent = result.message || 'An error occurred. Please try again.';
+    }
+  } catch (error) {
+    formMessage.classList.remove('hidden');
+    formMessage.className = 'bg-red-100 text-red-700 p-4 rounded-lg';
+    formMessage.textContent = 'An error occurred. Please try again.';
+  }
+
+  submitBtn.disabled = false;
+  submitBtn.innerHTML = '<span>${__('contact.form.submit')}</span><svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>';
+});
+</script>
+
+` }) %>

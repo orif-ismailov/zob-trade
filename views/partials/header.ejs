@@ -1,0 +1,60 @@
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo -->
+      <a href="<%= langUrl('/') %>" class="flex items-center">
+        <img src="/logo.png" alt="ZobTrade Georgia" class="max-h-[60px] w-auto">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="<%= langUrl('/') %>" class="text-gray-700 hover:text-primary-900 font-medium <%= page === 'home' ? 'text-primary-900' : '' %>">
+          <%= __('nav.home') %>
+        </a>
+        <a href="<%= langUrl('/about') %>" class="text-gray-700 hover:text-primary-900 font-medium <%= page === 'about' ? 'text-primary-900' : '' %>">
+          <%= __('nav.about') %>
+        </a>
+        <a href="<%= langUrl('/products') %>" class="text-gray-700 hover:text-primary-900 font-medium <%= page === 'products' ? 'text-primary-900' : '' %>">
+          <%= __('nav.products') %>
+        </a>
+        <a href="<%= langUrl('/logistics') %>" class="text-gray-700 hover:text-primary-900 font-medium <%= page === 'logistics' ? 'text-primary-900' : '' %>">
+          <%= __('nav.logistics') %>
+        </a>
+        <a href="<%= langUrl('/compliance') %>" class="text-gray-700 hover:text-primary-900 font-medium <%= page === 'compliance' ? 'text-primary-900' : '' %>">
+          <%= __('nav.compliance') %>
+        </a>
+        <a href="<%= langUrl('/markets') %>" class="text-gray-700 hover:text-primary-900 font-medium <%= page === 'markets' ? 'text-primary-900' : '' %>">
+          <%= __('nav.markets') %>
+        </a>
+        <a href="<%= langUrl('/contact') %>" class="bg-accent-600 text-white px-4 py-2 rounded-lg hover:bg-accent-700 font-medium">
+          <%= __('nav.contact') %>
+        </a>
+      </nav>
+
+      <!-- Language Switcher & Mobile Menu -->
+      <div class="flex items-center space-x-4">
+        <%- include('language-switcher') %>
+
+        <!-- Mobile menu button -->
+        <button type="button" class="md:hidden p-2 text-gray-700" id="mobile-menu-btn">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <nav class="hidden md:hidden bg-white border-t" id="mobile-menu">
+    <div class="px-4 py-3 space-y-2">
+      <a href="<%= langUrl('/') %>" class="block py-2 text-gray-700 hover:text-primary-900"><%= __('nav.home') %></a>
+      <a href="<%= langUrl('/about') %>" class="block py-2 text-gray-700 hover:text-primary-900"><%= __('nav.about') %></a>
+      <a href="<%= langUrl('/products') %>" class="block py-2 text-gray-700 hover:text-primary-900"><%= __('nav.products') %></a>
+      <a href="<%= langUrl('/logistics') %>" class="block py-2 text-gray-700 hover:text-primary-900"><%= __('nav.logistics') %></a>
+      <a href="<%= langUrl('/compliance') %>" class="block py-2 text-gray-700 hover:text-primary-900"><%= __('nav.compliance') %></a>
+      <a href="<%= langUrl('/markets') %>" class="block py-2 text-gray-700 hover:text-primary-900"><%= __('nav.markets') %></a>
+      <a href="<%= langUrl('/contact') %>" class="block py-2 text-accent-600 font-medium"><%= __('nav.contact') %></a>
+    </div>
+  </nav>
+</header>

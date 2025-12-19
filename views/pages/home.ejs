@@ -1,0 +1,226 @@
+<%- include('../layouts/main', { body: `
+
+<!-- Hero Section -->
+<section class="bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white py-20 lg:py-32">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
+          ${__('home.hero.title')}
+        </h1>
+        <p class="text-xl lg:text-2xl text-gray-300 mb-4">
+          ${__('home.hero.subtitle')}
+        </p>
+        <div class="flex flex-wrap gap-2 mb-8">
+          <span class="bg-primary-700 px-3 py-1 rounded-full text-sm">Diesel EN 590</span>
+          <span class="bg-primary-700 px-3 py-1 rounded-full text-sm">Gasoline A-92</span>
+          <span class="bg-primary-700 px-3 py-1 rounded-full text-sm">Gasoline A-95</span>
+        </div>
+        <div class="flex flex-wrap gap-2 mb-8 text-gray-400 text-sm">
+          <span>Wholesale</span>
+          <span>•</span>
+          <span>Export</span>
+          <span>•</span>
+          <span>FOB / CIF / DAP</span>
+        </div>
+        <a href="${langUrl('/contact')}" class="inline-flex items-center bg-accent-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-accent-700 transition-colors">
+          ${__('home.hero.cta')}
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="hidden lg:block">
+        <div class="relative">
+          <div class="absolute inset-0 bg-accent-600 rounded-2xl transform rotate-3"></div>
+          <div class="relative bg-primary-800 rounded-2xl p-2 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=600&q=80" alt="Business Partnership" class="w-full h-72 object-cover rounded-lg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust Signals -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div>
+        <div class="text-4xl font-bold text-primary-900">25+</div>
+        <div class="text-gray-600 mt-1">${__('home.trust.years')}</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-primary-900">Own</div>
+        <div class="text-gray-600 mt-1">Refinery & Tankers</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-primary-900">4+</div>
+        <div class="text-gray-600 mt-1">${__('home.trust.countries')}</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold text-primary-900">100%</div>
+        <div class="text-gray-600 mt-1">${__('home.trust.compliance')}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products Preview -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-primary-900 mb-4">${__('home.products.title')}</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">${__('home.products.subtitle')}</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Diesel EN 590 -->
+      <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow">
+        <div class="w-20 h-20 mb-6">
+          <img src="/images/products/diesel.svg" alt="Diesel EN 590" class="w-full h-full">
+        </div>
+        <h3 class="text-xl font-bold text-primary-900 mb-2">Diesel EN 590</h3>
+        <p class="text-gray-600 mb-4">${__('home.products.diesel_desc')}</p>
+        <ul class="text-sm text-gray-500 space-y-1">
+          <li>• Bulk supply</li>
+          <li>• Monthly contracts</li>
+          <li>• Specs on request</li>
+        </ul>
+      </div>
+
+      <!-- Gasoline A-92 -->
+      <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow">
+        <div class="w-20 h-20 mb-6">
+          <img src="/images/products/gasoline-92.svg" alt="Gasoline A-92" class="w-full h-full">
+        </div>
+        <h3 class="text-xl font-bold text-primary-900 mb-2">Gasoline A-92</h3>
+        <p class="text-gray-600 mb-4">${__('home.products.gasoline92_desc')}</p>
+        <ul class="text-sm text-gray-500 space-y-1">
+          <li>• Bulk supply</li>
+          <li>• Monthly contracts</li>
+          <li>• Specs on request</li>
+        </ul>
+      </div>
+
+      <!-- Gasoline A-95 -->
+      <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow">
+        <div class="w-20 h-20 mb-6">
+          <img src="/images/products/gasoline-95.svg" alt="Gasoline A-95" class="w-full h-full">
+        </div>
+        <h3 class="text-xl font-bold text-primary-900 mb-2">Gasoline A-95</h3>
+        <p class="text-gray-600 mb-4">${__('home.products.gasoline95_desc')}</p>
+        <ul class="text-sm text-gray-500 space-y-1">
+          <li>• Bulk supply</li>
+          <li>• Monthly contracts</li>
+          <li>• Specs on request</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center mt-12">
+      <a href="${langUrl('/products')}" class="inline-flex items-center text-primary-900 font-semibold hover:text-accent-600">
+        ${__('home.products.view_all')}
+        <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Logistics Map -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-primary-900 mb-4">${__('home.logistics.title')}</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">${__('home.logistics.subtitle')}</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="space-y-6">
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="font-semibold text-primary-900">${__('home.logistics.ports_title')}</h3>
+              <p class="text-gray-600">Batumi, Poti, Kulevi</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="font-semibold text-primary-900">${__('home.logistics.rail_title')}</h3>
+              <p class="text-gray-600">Uzbekistan, Kazakhstan, Afghanistan (Galaba)</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <div class="ml-4">
+              <h3 class="font-semibold text-primary-900">${__('home.logistics.incoterms_title')}</h3>
+              <p class="text-gray-600">FOB / CIF / DAP / DDP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-100 rounded-2xl p-4 overflow-hidden">
+        <img src="/images/map-routes.svg" alt="Logistics Routes" class="w-full h-auto rounded-lg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Compliance Badges -->
+<section class="py-16 bg-primary-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-primary-900 mb-4">${__('home.compliance.title')}</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center max-w-3xl mx-auto">
+      <div class="bg-white rounded-lg p-6">
+        <img src="/images/compliance/kyc-aml.svg" alt="KYC/AML" class="w-12 h-12 mx-auto mb-2">
+        <p class="text-sm font-medium text-primary-900">KYC/AML</p>
+      </div>
+      <div class="bg-white rounded-lg p-6">
+        <img src="/images/compliance/contracts.svg" alt="Contracts" class="w-12 h-12 mx-auto mb-2">
+        <p class="text-sm font-medium text-primary-900">${__('home.compliance.contracts')}</p>
+      </div>
+      <div class="bg-white rounded-lg p-6">
+        <img src="/images/compliance/bank.svg" alt="Bank" class="w-12 h-12 mx-auto mb-2">
+        <p class="text-sm font-medium text-primary-900">${__('home.compliance.bank')}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-primary-900 text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold mb-4">${__('home.cta.title')}</h2>
+    <p class="text-xl text-gray-300 mb-8">${__('home.cta.subtitle')}</p>
+    <a href="${langUrl('/contact')}" class="inline-flex items-center bg-accent-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-accent-700 transition-colors">
+      ${__('home.cta.button')}
+      <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+      </svg>
+    </a>
+  </div>
+</section>
+
+` }) %>

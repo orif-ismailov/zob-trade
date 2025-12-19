@@ -1,0 +1,57 @@
+<div class="mb-8">
+  <div class="flex items-center justify-between">
+    <div>
+      <h1 class="text-3xl font-bold text-gray-900">Edit: <%= pageName %></h1>
+      <p class="text-gray-500 mt-2">Update content for all languages</p>
+    </div>
+    <a href="/admin/content" class="text-gray-500 hover:text-gray-900">
+      Back to pages
+    </a>
+  </div>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm p-6">
+  <p class="text-gray-600 mb-6">
+    Content is managed through translation files. Use the Translations section to update content for each language.
+  </p>
+
+  <div class="grid md:grid-cols-2 gap-4">
+    <a href="/admin/translations/en" class="flex items-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+      <span class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center font-bold text-primary-900 mr-4">EN</span>
+      <div>
+        <p class="font-medium text-gray-900">English</p>
+        <p class="text-sm text-gray-500">Edit English content</p>
+      </div>
+    </a>
+
+    <a href="/admin/translations/ru" class="flex items-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+      <span class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center font-bold text-primary-900 mr-4">RU</span>
+      <div>
+        <p class="font-medium text-gray-900">Russian</p>
+        <p class="text-sm text-gray-500">Edit Russian content</p>
+      </div>
+    </a>
+
+    <a href="/admin/translations/ka" class="flex items-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+      <span class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center font-bold text-primary-900 mr-4">KA</span>
+      <div>
+        <p class="font-medium text-gray-900">Georgian</p>
+        <p class="text-sm text-gray-500">Edit Georgian content</p>
+      </div>
+    </a>
+
+    <a href="/admin/translations/az" class="flex items-center p-4 border rounded-lg hover:bg-gray-50 transition-colors">
+      <span class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center font-bold text-primary-900 mr-4">AZ</span>
+      <div>
+        <p class="font-medium text-gray-900">Azerbaijani</p>
+        <p class="text-sm text-gray-500">Edit Azerbaijani content</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+    <p class="text-blue-800 text-sm">
+      <strong>Tip:</strong> Each language has its own translation file. Edit the translations to update the content displayed on the website.
+    </p>
+  </div>
+</div>

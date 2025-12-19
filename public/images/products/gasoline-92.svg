@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="gas92Drop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c05621"/>
+      <stop offset="50%" style="stop-color:#dd6b20"/>
+      <stop offset="100%" style="stop-color:#c05621"/>
+    </linearGradient>
+    <linearGradient id="pumpBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#718096"/>
+      <stop offset="50%" style="stop-color:#a0aec0"/>
+      <stop offset="100%" style="stop-color:#718096"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="55" fill="#fffaf0" stroke="#fbd38d" stroke-width="2"/>
+
+  <!-- Gas pump -->
+  <g transform="translate(25, 18)">
+    <!-- Pump body -->
+    <rect x="15" y="20" width="40" height="55" rx="3" fill="url(#pumpBody)"/>
+
+    <!-- Display -->
+    <rect x="20" y="28" width="30" height="18" rx="2" fill="#1a202c"/>
+    <text x="35" y="42" text-anchor="middle" fill="#48bb78" font-family="monospace" font-size="12">92</text>
+
+    <!-- Pump top -->
+    <rect x="10" y="10" width="50" height="12" rx="2" fill="#4a5568"/>
+
+    <!-- Nozzle holder -->
+    <rect x="50" y="50" width="12" height="8" fill="#4a5568"/>
+
+    <!-- Hose -->
+    <path d="M62 54 Q80 54 80 70 Q80 85 65 85" stroke="#2d3748" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <!-- Nozzle -->
+    <rect x="55" y="82" width="15" height="8" rx="1" fill="#2d3748"/>
+    <rect x="68" y="80" width="4" height="12" fill="#4a5568"/>
+  </g>
+
+  <!-- Fuel drop -->
+  <path d="M85 90 Q85 90 82 97 Q79 104 85 104 Q91 104 88 97 Q85 90 85 90 Z"
+        fill="url(#gas92Drop)"/>
+
+  <!-- A-92 label -->
+  <text x="60" y="108" text-anchor="middle" fill="#c05621" font-family="Arial, sans-serif" font-size="10" font-weight="bold">A-92</text>
+</svg>

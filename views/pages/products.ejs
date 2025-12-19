@@ -1,0 +1,145 @@
+<%- include('../layouts/main', { body: `
+
+<!-- Page Header -->
+<section class="bg-primary-900 text-white py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-bold mb-4">${__('products.title')}</h1>
+    <p class="text-xl text-gray-300 max-w-3xl">${__('products.subtitle')}</p>
+  </div>
+</section>
+
+<!-- Products Grid -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-3 gap-8">
+
+      <!-- Diesel EN 590 -->
+      <div class="bg-gray-50 rounded-2xl overflow-hidden">
+        <div class="bg-primary-900 text-white p-8">
+          <img src="/images/products/diesel.svg" alt="Diesel EN 590" class="w-20 h-20 mb-4 bg-white rounded-lg p-2">
+          <h2 class="text-2xl font-bold">Diesel EN 590</h2>
+        </div>
+        <div class="p-8">
+          <p class="text-gray-600 mb-6">${__('products.diesel.description')}</p>
+
+          <h3 class="font-semibold text-primary-900 mb-3">${__('products.specifications')}</h3>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex justify-between">
+              <span>${__('products.diesel.sulfur')}</span>
+              <span class="font-medium">10 ppm max</span>
+            </li>
+            <li class="flex justify-between">
+              <span>${__('products.diesel.cetane')}</span>
+              <span class="font-medium">51 min</span>
+            </li>
+            <li class="flex justify-between">
+              <span>${__('products.diesel.density')}</span>
+              <span class="font-medium">820-845 kg/m³</span>
+            </li>
+          </ul>
+
+          <div class="border-t pt-6">
+            <p class="text-sm text-gray-500 mb-4">${__('products.specs_note')}</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-primary-100 text-primary-900 px-3 py-1 rounded-full text-sm">${__('products.bulk')}</span>
+              <span class="bg-primary-100 text-primary-900 px-3 py-1 rounded-full text-sm">${__('products.monthly')}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gasoline A-92 -->
+      <div class="bg-gray-50 rounded-2xl overflow-hidden">
+        <div class="bg-accent-600 text-white p-8">
+          <img src="/images/products/gasoline-92.svg" alt="Gasoline A-92" class="w-20 h-20 mb-4 bg-white rounded-lg p-2">
+          <h2 class="text-2xl font-bold">Gasoline A-92</h2>
+        </div>
+        <div class="p-8">
+          <p class="text-gray-600 mb-6">${__('products.gasoline92.description')}</p>
+
+          <h3 class="font-semibold text-primary-900 mb-3">${__('products.specifications')}</h3>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex justify-between">
+              <span>${__('products.gasoline.octane')}</span>
+              <span class="font-medium">92 RON</span>
+            </li>
+            <li class="flex justify-between">
+              <span>${__('products.gasoline.sulfur')}</span>
+              <span class="font-medium">10 ppm max</span>
+            </li>
+            <li class="flex justify-between">
+              <span>${__('products.gasoline.benzene')}</span>
+              <span class="font-medium">1% max</span>
+            </li>
+          </ul>
+
+          <div class="border-t pt-6">
+            <p class="text-sm text-gray-500 mb-4">${__('products.specs_note')}</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-sm">${__('products.bulk')}</span>
+              <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-sm">${__('products.monthly')}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gasoline A-95 -->
+      <div class="bg-gray-50 rounded-2xl overflow-hidden">
+        <div class="bg-accent-700 text-white p-8">
+          <img src="/images/products/gasoline-95.svg" alt="Gasoline A-95" class="w-20 h-20 mb-4 bg-white rounded-lg p-2">
+          <h2 class="text-2xl font-bold">Gasoline A-95</h2>
+        </div>
+        <div class="p-8">
+          <p class="text-gray-600 mb-6">${__('products.gasoline95.description')}</p>
+
+          <h3 class="font-semibold text-primary-900 mb-3">${__('products.specifications')}</h3>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex justify-between">
+              <span>${__('products.gasoline.octane')}</span>
+              <span class="font-medium">95 RON</span>
+            </li>
+            <li class="flex justify-between">
+              <span>${__('products.gasoline.sulfur')}</span>
+              <span class="font-medium">10 ppm max</span>
+            </li>
+            <li class="flex justify-between">
+              <span>${__('products.gasoline.benzene')}</span>
+              <span class="font-medium">1% max</span>
+            </li>
+          </ul>
+
+          <div class="border-t pt-6">
+            <p class="text-sm text-gray-500 mb-4">${__('products.specs_note')}</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-sm">${__('products.bulk')}</span>
+              <span class="bg-accent-100 text-accent-800 px-3 py-1 rounded-full text-sm">${__('products.monthly')}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Origin Note -->
+<section class="py-12 bg-gray-50">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <div class="bg-white rounded-xl p-8">
+      <h3 class="text-lg font-semibold text-primary-900 mb-4">${__('products.origin.title')}</h3>
+      <p class="text-gray-600">${__('products.origin.description')}</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-primary-900 text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold mb-4">${__('products.cta.title')}</h2>
+    <p class="text-xl text-gray-300 mb-8">${__('products.cta.subtitle')}</p>
+    <a href="${langUrl('/contact')}" class="inline-flex items-center bg-accent-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-accent-700 transition-colors">
+      ${__('products.cta.button')}
+    </a>
+  </div>
+</section>
+
+` }) %>

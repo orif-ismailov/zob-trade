@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "logistics": "Lojistik",
+    "compliance": "Uyumluluk",
+    "markets": "Pazarlar",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "description": "ZOB TRADE LLC, 25 yıllık sektör tecrübesiyle Gürcistan merkezli bir petrol ticaret ve tedarik şirketidir; yakıt üretimi, depolama ve uluslararası teslimatın tam fiziksel tedarik zincirinde faaliyet göstermektedir.",
+    "quick_links": "Hızlı Bağlantılar",
+    "contact": "Bize Ulaşın",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "seo": {
+    "home": {
+      "title": "Gürcistan'dan Yakıt ve Petrol Ürünleri Tedarikçisi",
+      "description": "ZobTrade - Gürcistan'dan Orta Asya'ya toptan yakıt ve petrol ürünleri tedarikçisi. Dizel EN 590, Benzin A-92, A-95.",
+      "keywords": "yakıt tedarikçisi gürcistan, petrol ticareti, dizel en590"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "ZobTrade hakkında bilgi edinin - Gürcistan'dan güvenilir yakıt tedarikçiniz.",
+      "keywords": "zobtrade şirketi, yakıt ticareti gürcistan"
+    },
+    "products": {
+      "title": "Ürünlerimiz",
+      "description": "Dizel EN 590, Benzin A-92, A-95 - toptan petrol ürünleri.",
+      "keywords": "dizel en590, benzin a92, benzin a95"
+    },
+    "logistics": {
+      "title": "Lojistik ve Rotalar",
+      "description": "Gürcistan limanlarından Orta Asya'ya demiryolu ve deniz lojistiği.",
+      "keywords": "yakıt lojistiği, demiryolu taşımacılığı, gürcistan limanları"
+    },
+    "compliance": {
+      "title": "Uyumluluk ve Belgeler",
+      "description": "Tam KYC/AML uyumluluğu, SGS/Intertek denetimi.",
+      "keywords": "kyc aml uyumluluk, sgs denetim"
+    },
+    "markets": {
+      "title": "Pazarlar ve Müşteriler",
+      "description": "Özbekistan, Kazakistan, Afganistan, Tacikistan ve diğer Orta Asya pazarlarına hizmet.",
+      "keywords": "orta asya yakıt pazarı"
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Dizel ve benzin ürünleri için fiyat teklifi isteyin.",
+      "keywords": "yakıt talebi, petrol ürünleri iletişim"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Gürcistan'dan Yakıt ve Petrol Ürünleri Tedarikçisi",
+      "subtitle": "Orta Asya'ya güvenilir toptan tedarik",
+      "cta": "Teklif İsteyin",
+      "georgia_central_asia": "Gürcistan → Orta Asya"
+    },
+    "trust": {
+      "years": "Yıllık Deneyim",
+      "tons": "Ton İhracat",
+      "countries": "Ülkeye Hizmet",
+      "compliance": "Uyumluluk"
+    },
+    "products": {
+      "title": "Ürünlerimiz",
+      "subtitle": "Toptan satış ve ihracat için yüksek kaliteli petrol ürünleri",
+      "diesel_desc": "Endüstriyel ve ticari kullanım için Avrupa standardı dizel yakıt",
+      "gasoline92_desc": "Genel otomotiv uygulamaları için normal benzin",
+      "gasoline95_desc": "Yüksek performans gereksinimleri için premium benzin",
+      "view_all": "Tüm Ürünleri Görüntüle"
+    },
+    "logistics": {
+      "title": "Lojistik ve Rotalar",
+      "subtitle": "Gürcistan limanları üzerinden Orta Asya'ya verimli teslimat",
+      "ports_title": "Gürcistan Limanları",
+      "rail_title": "Demiryolu Bağlantıları",
+      "incoterms_title": "Desteklenen Incoterms",
+      "map_placeholder": "Lojistik rota haritası"
+    },
+    "compliance": {
+      "title": "Tam Uyumluluk",
+      "contracts": "Sözleşme Bazlı",
+      "bank": "Banka-Banka",
+      "no_grey": "Gri Şema Yok"
+    },
+    "cta": {
+      "title": "Başlamaya Hazır mısınız?",
+      "subtitle": "Petrol ürünü ihtiyaçlarınız için 24 saat içinde teklif alın",
+      "button": "Şimdi İletişime Geçin"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Gürcistan'dan Orta Asya'ya petrol ticaretinde güvenilir ortağınız",
+    "who_we_are": {
+      "title": "Biz Kimiz",
+      "p1": "ZobTrade, Gürcistan merkezli, Orta Asya pazarlarına toptan yakıt tedariği konusunda uzmanlaşmış kayıtlı bir petrol ticaret şirketidir.",
+      "p2": "Gürcistan'ın ana limanları - Poti, Kulevi ve Batum üzerinden faaliyet gösteriyoruz.",
+      "p3": "Ticaret modelimiz şeffaflık ve uyumluluk üzerine kurulmuştur."
+    },
+    "company_info": {
+      "title": "Şirket Bilgileri",
+      "legal_name": "Yasal Unvan",
+      "registration": "Kayıt Ülkesi",
+      "experience": "Deneyim",
+      "years": "yıl",
+      "regions": "Faaliyet Bölgeleri",
+      "regions_value": "Gürcistan, Orta Asya"
+    },
+    "ports": {
+      "title": "Limanlarımız",
+      "poti_desc": "Orta Asya'ya demiryolu bağlantısı olan derin su limanı",
+      "kulevi_desc": "Modern altyapıya sahip uzmanlaşmış petrol terminali",
+      "batumi_desc": "Petrol ürünleri elleçleme için stratejik liman"
+    },
+    "model": {
+      "title": "Ticaret Modelimiz",
+      "step1_title": "Tedarik",
+      "step1_desc": "Petrol ürünlerini doğrulanmış tedarikçilerden alıyoruz",
+      "step2_title": "Kalite Kontrolü",
+      "step2_desc": "Yükleme ve boşaltmada SGS/Intertek denetimi",
+      "step3_title": "Lojistik",
+      "step3_desc": "Gürcistan limanları üzerinden demiryolu ve deniz taşımacılığı",
+      "step4_title": "Teslimat",
+      "step4_desc": "Tam dokümantasyon ile varış noktasına son teslimat"
+    },
+    "cta": {
+      "title": "Bizimle Çalışmak İster misiniz?",
+      "subtitle": "Ortaklık fırsatları ve teklifler için bizimle iletişime geçin",
+      "button": "İletişime Geçin"
+    }
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Toptan satış ve Orta Asya'ya ihracat için yüksek kaliteli petrol ürünleri",
+    "specifications": "Teknik Özellikler",
+    "specs_note": "Tam spesifikasyonlar talep üzerine mevcuttur",
+    "bulk": "Toptan Tedarik",
+    "monthly": "Aylık Sözleşmeler",
+    "diesel": {
+      "description": "Endüstriyel, ticari ve otomotiv uygulamalarına uygun Avrupa standardı ultra düşük kükürtlü dizel yakıt.",
+      "sulfur": "Kükürt İçeriği",
+      "cetane": "Setan Numarası",
+      "density": "Yoğunluk"
+    },
+    "gasoline92": {
+      "description": "Genel otomotiv kullanımı için ideal, Euro standartlarına uygun normal kurşunsuz benzin."
+    },
+    "gasoline95": {
+      "description": "Yüksek performanslı araçlar için yüksek oktan numaralı premium kurşunsuz benzin."
+    },
+    "gasoline": {
+      "octane": "Oktan Numarası",
+      "sulfur": "Kükürt İçeriği",
+      "benzene": "Benzen İçeriği"
+    },
+    "origin": {
+      "title": "Ürün Menşei",
+      "description": "Ürün menşei ve detaylı spesifikasyonlar talep üzerine sağlanmaktadır."
+    },
+    "cta": {
+      "title": "Teklife mi İhtiyacınız Var?",
+      "subtitle": "Ürün gereksinimleriniz ve miktarınızla bizimle iletişime geçin",
+      "button": "Teklif İsteyin"
+    }
+  },
+  "logistics": {
+    "title": "Lojistik ve Rotalar",
+    "subtitle": "Belirlenmiş rotalar boyunca Gürcistan'dan Orta Asya'ya verimli petrol ürünleri teslimatı",
+    "ports": {
+      "title": "Gürcistan Limanları",
+      "poti_desc": "Karadeniz kıyısındaki ana derin su limanı",
+      "poti_feature1": "Orta Asya'ya demiryolu bağlantısı",
+      "poti_feature2": "Konteyner ve dökme yük elleçleme",
+      "kulevi_desc": "Uzmanlaşmış petrol ve petrol ürünleri terminali",
+      "kulevi_feature1": "Modern petrol elleçleme tesisleri",
+      "kulevi_feature2": "Büyük depolama kapasitesi",
+      "batumi_desc": "Stratejik petrol ürünleri elleçleme limanı",
+      "batumi_feature1": "Petrol terminali altyapısı",
+      "batumi_feature2": "Transit imkanları"
+    },
+    "routes": {
+      "title": "Demiryolu Rotaları",
+      "map_placeholder": "Demiryolu bağlantılarını gösteren rota haritası",
+      "uzbekistan": "Özbekistan",
+      "uzbekistan_desc": "Kazakistan koridoru üzerinden doğrudan demiryolu bağlantısı",
+      "kazakhstan": "Kazakistan",
+      "kazakhstan_desc": "Hazar geçişi ile demiryolu taşımacılığı",
+      "afghanistan": "Afganistan (Galaba)",
+      "afghanistan_desc": "Galaba terminali üzerinden Afganistan'a demiryolu teslimatı. Afganistan içindeki sonraki ulaşım alıcı tarafından düzenlenir.",
+      "tajikistan": "Tacikistan",
+      "tajikistan_desc": "Özbekistan üzerinden demiryolu bağlantısı"
+    },
+    "incoterms": {
+      "title": "Teslimat Şartları (Incoterms)",
+      "fob": "Free on Board - Alıcı sevkiyatı düzenler",
+      "cif": "Maliyet, Sigorta ve Navlun dahil",
+      "dap": "Belirlenen Yere Teslim - Varış noktanıza",
+      "ddp": "Gümrük Vergisi Ödenmiş Teslim - Her şey dahil"
+    },
+    "cta": {
+      "title": "Lojistik İhtiyaçlarınızı Tartışın",
+      "subtitle": "Teslimat şartlarını gereksinimlerinize göre özelleştirebiliriz",
+      "button": "İletişime Geçin"
+    }
+  },
+  "compliance": {
+    "title": "Uyumluluk ve Belgeler",
+    "subtitle": "Uluslararası ticaret standartlarına tam şeffaflık ve uyumluluk",
+    "compliance": "Uyumluluk",
+    "kyc_aml": {
+      "description": "Tüm işlemler için katı KYC ve AML prosedürlerini uyguluyoruz.",
+      "item1": "Tam müşteri doğrulama süreci",
+      "item2": "Yaptırım taraması",
+      "item3": "İşlem izleme"
+    },
+    "inspection": {
+      "title": "Bağımsız Denetim",
+      "description": "Tüm sevkiyatlar uluslararası tanınmış denetim şirketleri tarafından denetlenir."
+    },
+    "contracts": {
+      "title": "Sözleşme Bazlı Tedarik",
+      "description": "Tüm işlemler açık şartlarla resmi sözleşmelerle yönetilir.",
+      "item1": "Standart sektör sözleşmeleri",
+      "item2": "Net ödeme şartları"
+    },
+    "payment": {
+      "title": "Banka-Banka Ödemeleri",
+      "description": "Tüm ödemeler yalnızca resmi banka kanalları aracılığıyla işlenir.",
+      "note": "Nakit işlem yok. Gri şema yok."
+    },
+    "documents": {
+      "title": "Mevcut Belgeler",
+      "product_specs": "Ürün Spesifikasyonları",
+      "certificates": "Kalite Sertifikaları",
+      "inspection": "Denetim Raporları",
+      "bl": "Konşimentolar",
+      "note": "Tüm belgeler doğrulanmış alıcılar için talep üzerine mevcuttur"
+    },
+    "cta": {
+      "title": "Uyumluluk Hakkında Sorularınız mı Var?",
+      "subtitle": "Uyumluluk prosedürlerimiz hakkında daha fazla bilgi için bizimle iletişime geçin",
+      "button": "İletişime Geçin"
+    }
+  },
+  "markets": {
+    "title": "Pazarlar ve Müşteriler",
+    "subtitle": "Tüm Orta Asya'da devlet ve özel alıcılara hizmet",
+    "regions": {
+      "title": "Hizmet Verdiğimiz Pazarlar",
+      "uzbekistan": "Özbekistan",
+      "kazakhstan": "Kazakistan",
+      "afghanistan": "Afganistan",
+      "tajikistan": "Tacikistan",
+      "azerbaijan": "Azerbaycan",
+      "turkey": "Türkiye"
+    },
+    "clients": {
+      "title": "Müşterilerimiz",
+      "government": "Devlet Alıcıları",
+      "government_desc": "Devlet enerji şirketleri ve kamu alımları",
+      "private": "Özel Şirketler",
+      "private_desc": "Endüstriyel ve ticari yakıt tüketicileri",
+      "traders": "Tüccarlar ve Distribütörler",
+      "traders_desc": "Bölgesel yakıt ticaret şirketleri",
+      "industrial": "Endüstriyel Tüketiciler",
+      "industrial_desc": "Üretim ve endüstriyel tesisler"
+    },
+    "why": {
+      "title": "Neden Bizi Seçmelisiniz",
+      "location_title": "Stratejik Konum",
+      "location_desc": "Gürcistan, Orta Asya pazarlarına optimal erişim sağlar",
+      "compliance_title": "Tam Uyumluluk",
+      "compliance_desc": "KYC/AML prosedürleri ve şeffaf operasyonlar",
+      "flexible_title": "Esnek Şartlar",
+      "flexible_desc": "Çeşitli Incoterms ve sözleşme seçenekleri mevcut"
+    },
+    "cta": {
+      "title": "Ortaklığa Hazır mısınız?",
+      "subtitle": "Yakıt tedarik gereksinimlerinizi tartışmak için bizimle iletişime geçin",
+      "button": "İletişime Geçin"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Teklif alın veya petrol ürünlerimiz ve hizmetlerimiz hakkında sorun",
+    "info": {
+      "title": "İletişim Bilgileri",
+      "address": "Adres",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp'tan yazın",
+      "telegram": "Telegram'dan yazın"
+    },
+    "form": {
+      "title": "Teklif Talebi",
+      "company": "Şirket Adı",
+      "contact_person": "İletişim Kişisi",
+      "email": "E-posta",
+      "phone": "Telefon / WhatsApp",
+      "product": "Ürün",
+      "select_product": "Ürün seçin",
+      "volume": "Gereken Miktar",
+      "volume_placeholder": "örn., 5000 ton/ay",
+      "destination": "Varış Ülkesi",
+      "select_destination": "Varış seçin",
+      "other": "Diğer",
+      "incoterms": "Tercih Edilen Incoterms",
+      "select_incoterms": "Incoterms seçin",
+      "message": "Ek Mesaj",
+      "submit": "Talebi Gönder"
+    }
+  }
+}

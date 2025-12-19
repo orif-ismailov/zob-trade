@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="dieselDrop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="50%" style="stop-color:#2c5282"/>
+      <stop offset="100%" style="stop-color:#1a365d"/>
+    </linearGradient>
+    <linearGradient id="dieselShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="55" fill="#ebf8ff" stroke="#bee3f8" stroke-width="2"/>
+
+  <!-- Fuel barrel -->
+  <g transform="translate(30, 25)">
+    <!-- Barrel body -->
+    <ellipse cx="30" cy="10" rx="25" ry="8" fill="#2d3748"/>
+    <rect x="5" y="10" width="50" height="55" fill="#4a5568"/>
+    <ellipse cx="30" cy="65" rx="25" ry="8" fill="#2d3748"/>
+
+    <!-- Barrel rings -->
+    <ellipse cx="30" cy="22" rx="25" ry="6" fill="none" stroke="#718096" stroke-width="3"/>
+    <ellipse cx="30" cy="42" rx="25" ry="6" fill="none" stroke="#718096" stroke-width="3"/>
+    <ellipse cx="30" cy="55" rx="25" ry="6" fill="none" stroke="#718096" stroke-width="3"/>
+
+    <!-- Highlight -->
+    <path d="M10 15 Q8 35 12 55" stroke="url(#dieselShine)" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Oil drop -->
+  <path d="M90 70 Q90 70 85 82 Q80 94 90 94 Q100 94 95 82 Q90 70 90 70 Z"
+        fill="url(#dieselDrop)"/>
+
+  <!-- EN 590 label -->
+  <text x="60" y="105" text-anchor="middle" fill="#1a365d" font-family="Arial, sans-serif" font-size="10" font-weight="bold">EN 590</text>
+</svg>

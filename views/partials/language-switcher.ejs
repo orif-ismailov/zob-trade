@@ -1,0 +1,20 @@
+<div class="relative" id="lang-switcher">
+  <button type="button" class="flex items-center text-gray-700 hover:text-primary-900 px-3 py-2 rounded-lg hover:bg-gray-100" id="lang-btn">
+    <span class="uppercase font-medium text-sm"><%= currentLang %></span>
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+    </svg>
+  </button>
+
+  <div class="hidden absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border z-50" id="lang-dropdown">
+    <div class="py-2">
+      <% languages.forEach(function(lang) { %>
+        <a href="<%= switchLangUrl(lang.code) %>"
+           class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 <%= currentLang === lang.code ? 'bg-gray-50 font-medium' : '' %>">
+          <span class="w-8"><%= lang.code.toUpperCase() %></span>
+          <span><%= lang.nativeName %></span>
+        </a>
+      <% }); %>
+    </div>
+  </div>
+</div>
