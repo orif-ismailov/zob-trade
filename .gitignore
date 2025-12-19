@@ -7,7 +7,7 @@ node_modules/
 .env.*.local
 
 # Build outputs
-public/css/styles.css
+# Note: CSS is committed for production deployment
 
 # IDE
 .idea/

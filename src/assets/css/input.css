@@ -67,3 +67,238 @@
     }
   }
 }
+
+/* ========================================
+   Scroll Animations
+   ======================================== */
+.animate-hidden {
+  opacity: 0;
+}
+
+.animate-visible {
+  opacity: 1;
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
+.animate-fade-down {
+  animation: fadeDown 0.6s ease-out forwards;
+}
+
+.animate-fade-left {
+  animation: fadeLeft 0.6s ease-out forwards;
+}
+
+.animate-fade-right {
+  animation: fadeRight 0.6s ease-out forwards;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.6s ease-out forwards;
+}
+
+.animate-blur-in {
+  animation: blurIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes blurIn {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* ========================================
+   Enhanced Hover Effects
+   ======================================== */
+/* Card hover with lift effect */
+.card,
+[class*="rounded-xl"][class*="shadow"],
+[class*="rounded-lg"][class*="bg-white"] {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+[class*="rounded-xl"][class*="shadow"]:hover,
+[class*="rounded-lg"][class*="bg-white"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15);
+}
+
+/* Button hover effects */
+a[class*="bg-accent"],
+button[class*="bg-accent"],
+a[class*="bg-primary"],
+button[class*="bg-primary"] {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a[class*="bg-accent"]:hover,
+button[class*="bg-accent"]:hover,
+a[class*="bg-primary"]:hover,
+button[class*="bg-primary"]:hover {
+  box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.25);
+}
+
+a[class*="bg-accent"]:active,
+button[class*="bg-accent"]:active,
+a[class*="bg-primary"]:active,
+button[class*="bg-primary"]:active {
+  transform: scale(0.98);
+}
+
+/* Button ripple effect */
+a[class*="bg-accent"]::after,
+button[class*="bg-accent"]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+  transform: scale(0);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.3s ease;
+}
+
+a[class*="bg-accent"]:hover::after,
+button[class*="bg-accent"]:hover::after {
+  transform: scale(2);
+  opacity: 1;
+}
+
+/* Link underline animation */
+nav a:not([class*="bg-"]) {
+  position: relative;
+}
+
+nav a:not([class*="bg-"])::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+nav a:not([class*="bg-"]):hover::after {
+  width: 100%;
+}
+
+/* Image hover zoom */
+img {
+  transition: transform 0.4s ease;
+}
+
+a:hover img,
+[class*="hover"]:hover img {
+  transform: scale(1.03);
+}
+
+/* Icon hover rotation */
+svg {
+  transition: transform 0.3s ease;
+}
+
+a:hover svg,
+button:hover svg {
+  transform: rotate(3deg) scale(1.1);
+}
+
+/* ========================================
+   Loading & Skeleton States
+   ======================================== */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* ========================================
+   Reduce Motion for Accessibility
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .animate-hidden {
+    opacity: 1;
+  }
+}

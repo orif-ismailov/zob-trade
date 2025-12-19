@@ -1,130 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="540 280 200 120" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f7fafc"/>
-      <stop offset="100%" style="stop-color:#edf2f7"/>
-    </linearGradient>
+    <!-- Clip the world map to our viewBox -->
+    <clipPath id="mapClip">
+      <rect x="540" y="280" width="200" height="120"/>
+    </clipPath>
+    <style>
+      /* Routes */
+      .route {
+        fill: none;
+        stroke: #c9932a;
+        stroke-width: 1.5;
+        stroke-dasharray: 4,2;
+        stroke-linecap: round;
+        filter: url(#glow);
+        animation: dash 1.5s linear infinite;
+      }
+
+      /* Labels */
+      .label {
+        font-family: Arial, sans-serif;
+        font-size: 5px;
+        fill: #242011;
+        font-weight: 600;
+        pointer-events: none;
+      }
+      .label-light {
+        font-family: Arial, sans-serif;
+        font-size: 4px;
+        fill: #6b6449;
+        pointer-events: none;
+      }
+      .label-origin {
+        font-family: Arial, sans-serif;
+        font-size: 4px;
+        fill: #fff;
+        font-weight: bold;
+        pointer-events: none;
+      }
+
+      /* Markers */
+      .marker-origin { fill: #242011; stroke: #fff; stroke-width: 1; }
+      .marker-dest { fill: #c9932a; stroke: #fff; stroke-width: 1; }
+
+      /* Pulse animation for origin */
+      @keyframes pulse {
+        0%, 100% { r: 3; opacity: 0.6; }
+        50% { r: 6; opacity: 0; }
+      }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+
+      /* Route flow animation */
+      @keyframes dash {
+        to { stroke-dashoffset: -12; }
+      }
+    </style>
+
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="600" height="400" fill="url(#mapBg)"/>
+  <!-- Ocean background -->
+  <rect x="540" y="280" width="200" height="120" fill="#d4e9f0"/>
 
-  <!-- Caspian Sea -->
-  <path d="M200 80 Q220 120 210 180 Q200 240 220 300 Q180 280 170 220 Q160 160 180 100 Z"
-        fill="#bee3f8" stroke="#90cdf4" stroke-width="1"/>
-
-  <!-- Black Sea (partial) -->
-  <path d="M0 100 Q40 80 80 100 Q100 140 80 180 Q40 200 0 180 Z"
-        fill="#bee3f8" stroke="#90cdf4" stroke-width="1"/>
-
-  <!-- Countries - simplified shapes -->
-  <!-- Georgia -->
-  <path d="M80 130 L140 120 L160 140 L140 160 L80 150 Z"
-        fill="#1a365d" stroke="#0f172a" stroke-width="2"/>
-
-  <!-- Azerbaijan -->
-  <path d="M160 140 L200 130 L210 180 L180 190 L160 160 Z"
-        fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
-
-  <!-- Turkey (partial) -->
-  <path d="M0 180 L80 150 L100 200 L40 220 L0 200 Z"
-        fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
-
-  <!-- Kazakhstan -->
-  <path d="M280 60 L450 40 L500 120 L480 200 L350 220 L280 180 L260 100 Z"
-        fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
-
-  <!-- Uzbekistan -->
-  <path d="M350 220 L450 200 L470 280 L380 300 L340 260 Z"
-        fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
-
-  <!-- Tajikistan -->
-  <path d="M470 280 L520 260 L540 310 L490 340 L460 320 Z"
-        fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
-
-  <!-- Afghanistan -->
-  <path d="M380 300 L460 320 L490 340 L500 380 L420 390 L360 350 Z"
-        fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
-
-  <!-- Turkmenistan -->
-  <path d="M220 200 L280 180 L350 220 L340 260 L260 280 L230 250 Z"
-        fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
-
-  <!-- Routes from Georgia -->
-  <g fill="none" stroke="#b8860b" stroke-width="3" stroke-dasharray="8,4" filter="url(#glow)">
-    <!-- To Kazakhstan -->
-    <path d="M140 140 Q200 100 280 80 Q350 70 400 100">
-      <animate attributeName="stroke-dashoffset" from="24" to="0" dur="2s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- To Uzbekistan -->
-    <path d="M140 140 Q240 180 300 220 Q350 250 400 260">
-      <animate attributeName="stroke-dashoffset" from="24" to="0" dur="2s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- To Afghanistan via Galaba -->
-    <path d="M140 140 Q220 200 300 280 Q360 320 420 350">
-      <animate attributeName="stroke-dashoffset" from="24" to="0" dur="2s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- To Tajikistan -->
-    <path d="M140 140 Q280 200 380 280 Q450 300 500 300">
-      <animate attributeName="stroke-dashoffset" from="24" to="0" dur="2s" repeatCount="indefinite"/>
-    </path>
+  <!-- Embedded World Base Map (clipped to viewBox) -->
+  <g clip-path="url(#mapClip)">
+    <image xlink:href="world-base.svg" x="0" y="0" width="1009.6727" height="665.96301"/>
   </g>
 
-  <!-- Port markers (Georgia) -->
-  <g>
-    <!-- Poti -->
-    <circle cx="90" cy="135" r="6" fill="#1a365d" stroke="#fff" stroke-width="2"/>
-    <text x="70" y="125" fill="#1a365d" font-size="10" font-weight="bold">Poti</text>
+  <!-- Animated Trade Routes -->
+  <g class="routes">
+    <!-- Georgia to Kazakhstan -->
+    <path class="route" d="M 602,334 Q 640,320 680,315 Q 700,312 720,310"/>
 
-    <!-- Batumi -->
-    <circle cx="85" cy="155" r="6" fill="#1a365d" stroke="#fff" stroke-width="2"/>
-    <text x="50" y="165" fill="#1a365d" font-size="10" font-weight="bold">Batumi</text>
+    <!-- Georgia to Uzbekistan -->
+    <path class="route" d="M 604,336 Q 630,335 655,336 Q 670,337 680,340"/>
 
-    <!-- Kulevi -->
-    <circle cx="95" cy="142" r="5" fill="#b8860b" stroke="#fff" stroke-width="2"/>
+    <!-- Georgia to Tajikistan -->
+    <path class="route" d="M 605,338 Q 640,342 665,348 Q 680,355 695,360"/>
+
+    <!-- Georgia to Afghanistan -->
+    <path class="route" d="M 603,340 Q 635,355 660,370 Q 675,380 685,388"/>
   </g>
 
-  <!-- Destination markers -->
-  <g>
+  <!-- Origin Marker (Georgia) -->
+  <g class="origin-marker">
+    <circle class="pulse" cx="600" cy="335" r="3" fill="#c9932a" opacity="0.4"/>
+    <circle class="marker-origin" cx="600" cy="335" r="4"/>
+    <text class="label-origin" x="600" y="330" text-anchor="middle">GEORGIA</text>
+  </g>
+
+  <!-- Destination Markers -->
+  <g class="destination-markers">
     <!-- Kazakhstan -->
-    <circle cx="400" cy="100" r="8" fill="#b8860b" stroke="#fff" stroke-width="2"/>
-    <text x="410" y="95" fill="#2d3748" font-size="11" font-weight="bold">Kazakhstan</text>
+    <circle class="marker-dest" cx="680" cy="315" r="3"/>
+    <text class="label" x="686" y="314">Kazakhstan</text>
 
     <!-- Uzbekistan -->
-    <circle cx="400" cy="260" r="8" fill="#b8860b" stroke="#fff" stroke-width="2"/>
-    <text x="410" y="255" fill="#2d3748" font-size="11" font-weight="bold">Uzbekistan</text>
-
-    <!-- Afghanistan - Galaba -->
-    <circle cx="420" cy="350" r="8" fill="#b8860b" stroke="#fff" stroke-width="2"/>
-    <text x="430" y="345" fill="#2d3748" font-size="11" font-weight="bold">Afghanistan</text>
-    <text x="430" y="358" fill="#718096" font-size="9">(Galaba)</text>
+    <circle class="marker-dest" cx="675" cy="342" r="3"/>
+    <text class="label" x="681" y="341">Uzbekistan</text>
 
     <!-- Tajikistan -->
-    <circle cx="500" cy="300" r="8" fill="#b8860b" stroke="#fff" stroke-width="2"/>
-    <text x="510" y="295" fill="#2d3748" font-size="11" font-weight="bold">Tajikistan</text>
+    <circle class="marker-dest" cx="690" cy="358" r="3"/>
+    <text class="label" x="696" y="357">Tajikistan</text>
+
+    <!-- Afghanistan -->
+    <circle class="marker-dest" cx="680" cy="380" r="3"/>
+    <text class="label" x="686" y="379">Afghanistan</text>
+    <text class="label-light" x="686" y="385">(Galaba)</text>
   </g>
 
-  <!-- Georgia label -->
-  <text x="100" y="145" fill="#fff" font-size="12" font-weight="bold">GEORGIA</text>
-
   <!-- Legend -->
-  <g transform="translate(20, 330)">
-    <rect x="0" y="0" width="150" height="60" fill="#fff" rx="5" stroke="#e2e8f0"/>
-    <circle cx="20" cy="20" r="6" fill="#1a365d"/>
-    <text x="35" y="24" fill="#2d3748" font-size="10">Origin Ports</text>
-    <circle cx="20" cy="42" r="6" fill="#b8860b"/>
-    <text x="35" y="46" fill="#2d3748" font-size="10">Destinations</text>
-    <line x1="90" y1="20" x2="130" y2="20" stroke="#b8860b" stroke-width="2" stroke-dasharray="5,3"/>
-    <text x="90" y="46" fill="#2d3748" font-size="10">Rail Routes</text>
+  <g transform="translate(545, 385)">
+    <rect x="0" y="0" width="70" height="18" fill="white" rx="2" opacity="0.9"/>
+    <circle cx="8" cy="6" r="2.5" fill="#242011" stroke="white" stroke-width="0.5"/>
+    <text x="14" y="8" class="label-light">Origin</text>
+    <circle cx="8" cy="13" r="2.5" fill="#c9932a" stroke="white" stroke-width="0.5"/>
+    <text x="14" y="15" class="label-light">Destinations</text>
+    <line x1="42" y1="6" x2="60" y2="6" stroke="#c9932a" stroke-width="1" stroke-dasharray="3,1"/>
+    <text x="42" y="15" class="label-light">Routes</text>
   </g>
 </svg>

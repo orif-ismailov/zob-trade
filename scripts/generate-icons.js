@@ -14,11 +14,25 @@ async function generateIcons() {
 
   const imageBuffer = fs.readFileSync(inputImage);
 
+  // Get image metadata to calculate crop area for the symbol (left part)
+  const metadata = await sharp(imageBuffer).metadata();
+  const symbolWidth = Math.floor(metadata.height * 0.95); // Symbol is roughly square
+
+  // Extract just the oil drop symbol (left portion of logo)
+  const symbolBuffer = await sharp(imageBuffer)
+    .extract({
+      left: 0,
+      top: 0,
+      width: symbolWidth,
+      height: metadata.height
+    })
+    .toBuffer();
+
   for (const size of sizes) {
     const outputPath = path.join(outputDir, `icon-${size}x${size}.png`);
 
-    await sharp(imageBuffer)
-      .resize(size, size)
+    await sharp(symbolBuffer)
+      .resize(size, size, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
       .png()
       .toFile(outputPath);
 
@@ -26,8 +40,8 @@ async function generateIcons() {
   }
 
   // Generate favicon.ico (use 32x32 as base)
-  await sharp(imageBuffer)
-    .resize(32, 32)
+  await sharp(symbolBuffer)
+    .resize(32, 32, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
     .png()
     .toFile(path.join(outputDir, 'favicon-32x32.png'));
 
