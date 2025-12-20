@@ -62,7 +62,9 @@
       "years": "İllik təcrübə",
       "tons": "Ton ixrac edilib",
       "countries": "Ölkəyə xidmət",
-      "compliance": "Uyğunluq"
+      "compliance": "Uyğunluq",
+      "own": "Öz",
+      "infrastructure": "Neft emalı zavodu və tankerlər"
     },
     "products": {
       "title": "Məhsullarımız",
@@ -70,6 +72,7 @@
       "diesel_desc": "Sənaye və kommersiya istifadəsi üçün Avropa standartı dizel yanacağı",
       "gasoline92_desc": "Ümumi avtomobil tətbiqləri üçün adi benzin",
       "gasoline95_desc": "Yüksək performans tələbləri üçün premium benzin",
+      "specs_request": "Sorğu əsasında spesifikasiyalar",
       "view_all": "Bütün məhsulları göstər"
     },
     "logistics": {
@@ -82,8 +85,12 @@
     },
     "compliance": {
       "title": "Tam uyğunluq",
+      "subtitle": "Tam şəffaflıq və beynəlxalq ticarət standartlarına ciddi riayət",
       "contracts": "Müqavilə əsaslı",
+      "contracts_desc": "Bütün əməliyyatlar aydın şərtlərlə rəsmi müqavilələr əsasında həyata keçirilir",
       "bank": "Bank-Bank",
+      "bank_desc": "Yalnız yoxlanılmış bank kanalları vasitəsilə təhlükəsiz ödənişlər, vasitəçilər olmadan",
+      "kyc_desc": "Hər əməliyyat üçün tam müştəri yoxlanışı və AML uyğunluğu",
       "no_grey": "Boz sxemlər yoxdur"
     },
     "cta": {

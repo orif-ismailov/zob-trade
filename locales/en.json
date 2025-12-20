@@ -62,7 +62,9 @@
       "years": "Years Experience",
       "tons": "Tons Exported",
       "countries": "Countries Served",
-      "compliance": "Compliance"
+      "compliance": "Compliance",
+      "own": "Own",
+      "infrastructure": "Refinery & Tankers"
     },
     "products": {
       "title": "Our Products",
@@ -70,6 +72,7 @@
       "diesel_desc": "European standard diesel fuel for industrial and commercial use",
       "gasoline92_desc": "Regular gasoline for general automotive applications",
       "gasoline95_desc": "Premium gasoline for high-performance requirements",
+      "specs_request": "Specs on request",
       "view_all": "View All Products"
     },
     "logistics": {
@@ -82,8 +85,12 @@
     },
     "compliance": {
       "title": "Full Compliance",
+      "subtitle": "We operate with complete transparency and strict adherence to international trade standards",
       "contracts": "Contract-based",
+      "contracts_desc": "All transactions are executed through official contracts with clear terms and conditions",
       "bank": "Bank-to-Bank",
+      "bank_desc": "Secure payments through verified banking channels only, no intermediaries",
+      "kyc_desc": "Full customer verification and anti-money laundering compliance for every transaction",
       "no_grey": "No Grey Schemes"
     },
     "cta": {

@@ -52,8 +52,8 @@
         <div class="text-gray-600 mt-1">${__('home.trust.years')}</div>
       </div>
       <div>
-        <div class="text-4xl font-bold text-primary-900">Own</div>
-        <div class="text-gray-600 mt-1">Refinery & Tankers</div>
+        <div class="text-4xl font-bold text-primary-900">${__('home.trust.own')}</div>
+        <div class="text-gray-600 mt-1">${__('home.trust.infrastructure')}</div>
       </div>
       <div>
         <div class="text-4xl font-bold text-primary-900">4+</div>
@@ -78,43 +78,43 @@
     <div class="grid md:grid-cols-3 gap-8">
       <!-- Diesel EN 590 -->
       <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow">
-        <div class="w-20 h-20 mb-6">
-          <img src="/images/products/diesel.svg" alt="Diesel EN 590" class="w-full h-full">
+        <div class="w-20 h-20 mb-6 rounded-xl overflow-hidden">
+          <img src="/diesel.jpg" alt="Diesel EN 590" class="w-full h-full object-cover">
         </div>
         <h3 class="text-xl font-bold text-primary-900 mb-2">Diesel EN 590</h3>
         <p class="text-gray-600 mb-4">${__('home.products.diesel_desc')}</p>
         <ul class="text-sm text-gray-500 space-y-1">
-          <li>• Bulk supply</li>
-          <li>• Monthly contracts</li>
-          <li>• Specs on request</li>
+          <li>• ${__('products.bulk')}</li>
+          <li>• ${__('products.monthly')}</li>
+          <li>• ${__('home.products.specs_request')}</li>
         </ul>
       </div>
 
       <!-- Gasoline A-92 -->
       <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow">
-        <div class="w-20 h-20 mb-6">
-          <img src="/images/products/gasoline-92.svg" alt="Gasoline A-92" class="w-full h-full">
+        <div class="w-20 h-20 mb-6 rounded-xl overflow-hidden">
+          <img src="/a92.jpg" alt="Gasoline A-92" class="w-full h-full object-cover">
         </div>
         <h3 class="text-xl font-bold text-primary-900 mb-2">Gasoline A-92</h3>
         <p class="text-gray-600 mb-4">${__('home.products.gasoline92_desc')}</p>
         <ul class="text-sm text-gray-500 space-y-1">
-          <li>• Bulk supply</li>
-          <li>• Monthly contracts</li>
-          <li>• Specs on request</li>
+          <li>• ${__('products.bulk')}</li>
+          <li>• ${__('products.monthly')}</li>
+          <li>• ${__('home.products.specs_request')}</li>
         </ul>
       </div>
 
       <!-- Gasoline A-95 -->
       <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow">
-        <div class="w-20 h-20 mb-6">
-          <img src="/images/products/gasoline-95.svg" alt="Gasoline A-95" class="w-full h-full">
+        <div class="w-20 h-20 mb-6 rounded-xl overflow-hidden">
+          <img src="/a95.jpg" alt="Gasoline A-95" class="w-full h-full object-cover">
         </div>
         <h3 class="text-xl font-bold text-primary-900 mb-2">Gasoline A-95</h3>
         <p class="text-gray-600 mb-4">${__('home.products.gasoline95_desc')}</p>
         <ul class="text-sm text-gray-500 space-y-1">
-          <li>• Bulk supply</li>
-          <li>• Monthly contracts</li>
-          <li>• Specs on request</li>
+          <li>• ${__('products.bulk')}</li>
+          <li>• ${__('products.monthly')}</li>
+          <li>• ${__('home.products.specs_request')}</li>
         </ul>
       </div>
     </div>
@@ -187,24 +187,34 @@
 </section>
 
 <!-- Compliance Badges -->
-<section class="py-16 bg-primary-50">
+<section class="py-20 bg-primary-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-bold text-primary-900 mb-4">${__('home.compliance.title')}</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">${__('home.compliance.subtitle')}</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center max-w-3xl mx-auto">
-      <div class="bg-white rounded-lg p-6">
-        <img src="/images/compliance/kyc-aml.svg" alt="KYC/AML" class="w-12 h-12 mx-auto mb-2">
-        <p class="text-sm font-medium text-primary-900">KYC/AML</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+        <div class="w-16 h-16 bg-primary-100 rounded-xl flex items-center justify-center mb-6">
+          <img src="/images/compliance/kyc-aml.svg" alt="KYC/AML" class="w-10 h-10">
+        </div>
+        <h3 class="text-lg font-bold text-primary-900 mb-2">KYC/AML</h3>
+        <p class="text-gray-600 text-sm">${__('home.compliance.kyc_desc')}</p>
       </div>
-      <div class="bg-white rounded-lg p-6">
-        <img src="/images/compliance/contracts.svg" alt="Contracts" class="w-12 h-12 mx-auto mb-2">
-        <p class="text-sm font-medium text-primary-900">${__('home.compliance.contracts')}</p>
+      <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+        <div class="w-16 h-16 bg-primary-100 rounded-xl flex items-center justify-center mb-6">
+          <img src="/images/compliance/contracts.svg" alt="Contracts" class="w-10 h-10">
+        </div>
+        <h3 class="text-lg font-bold text-primary-900 mb-2">${__('home.compliance.contracts')}</h3>
+        <p class="text-gray-600 text-sm">${__('home.compliance.contracts_desc')}</p>
       </div>
-      <div class="bg-white rounded-lg p-6">
-        <img src="/images/compliance/bank.svg" alt="Bank" class="w-12 h-12 mx-auto mb-2">
-        <p class="text-sm font-medium text-primary-900">${__('home.compliance.bank')}</p>
+      <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+        <div class="w-16 h-16 bg-primary-100 rounded-xl flex items-center justify-center mb-6">
+          <img src="/images/compliance/bank.svg" alt="Bank" class="w-10 h-10">
+        </div>
+        <h3 class="text-lg font-bold text-primary-900 mb-2">${__('home.compliance.bank')}</h3>
+        <p class="text-gray-600 text-sm">${__('home.compliance.bank_desc')}</p>
       </div>
     </div>
   </div>

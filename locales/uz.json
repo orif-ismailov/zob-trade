@@ -62,7 +62,9 @@
       "years": "Yillik tajriba",
       "tons": "Tonna eksport qilingan",
       "countries": "Davlat xizmat ko'rsatilgan",
-      "compliance": "Muvofiqlik"
+      "compliance": "Muvofiqlik",
+      "own": "O'z",
+      "infrastructure": "Neftni qayta ishlash zavodi va tankerlar"
     },
     "products": {
       "title": "Bizning mahsulotlar",
@@ -70,6 +72,7 @@
       "diesel_desc": "Sanoat va tijorat foydalanish uchun Yevropa standartidagi dizel yoqilg'isi",
       "gasoline92_desc": "Umumiy avtomobil qo'llanishi uchun oddiy benzin",
       "gasoline95_desc": "Yuqori ishlash talablari uchun premium benzin",
+      "specs_request": "So'rov bo'yicha spetsifikatsiyalar",
       "view_all": "Barcha mahsulotlarni ko'rish"
     },
     "logistics": {
@@ -82,8 +85,12 @@
     },
     "compliance": {
       "title": "To'liq muvofiqlik",
+      "subtitle": "To'liq shaffoflik va xalqaro savdo standartlariga qat'iy rioya qilish",
       "contracts": "Shartnoma asosida",
+      "contracts_desc": "Barcha bitimlar aniq shartlar bilan rasmiy shartnomalar orqali amalga oshiriladi",
       "bank": "Bank-Bank",
+      "bank_desc": "Faqat tasdiqlangan bank kanallari orqali xavfsiz to'lovlar, vositachilarsiz",
+      "kyc_desc": "Har bir tranzaksiya uchun to'liq mijoz tekshiruvi va AML muvofiqligi",
       "no_grey": "Kulrang sxemalarsiz"
     },
     "cta": {

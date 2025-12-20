@@ -62,7 +62,9 @@
       "years": "Yıllık Deneyim",
       "tons": "Ton İhracat",
       "countries": "Ülkeye Hizmet",
-      "compliance": "Uyumluluk"
+      "compliance": "Uyumluluk",
+      "own": "Kendi",
+      "infrastructure": "Rafineri ve Tankerler"
     },
     "products": {
       "title": "Ürünlerimiz",
@@ -70,6 +72,7 @@
       "diesel_desc": "Endüstriyel ve ticari kullanım için Avrupa standardı dizel yakıt",
       "gasoline92_desc": "Genel otomotiv uygulamaları için normal benzin",
       "gasoline95_desc": "Yüksek performans gereksinimleri için premium benzin",
+      "specs_request": "Talep üzerine teknik özellikler",
       "view_all": "Tüm Ürünleri Görüntüle"
     },
     "logistics": {
@@ -82,8 +85,12 @@
     },
     "compliance": {
       "title": "Tam Uyumluluk",
+      "subtitle": "Tam şeffaflık ve uluslararası ticaret standartlarına sıkı bağlılık",
       "contracts": "Sözleşme Bazlı",
+      "contracts_desc": "Tüm işlemler net şartlarla resmi sözleşmeler aracılığıyla yürütülür",
       "bank": "Banka-Banka",
+      "bank_desc": "Yalnızca doğrulanmış banka kanalları aracılığıyla güvenli ödemeler, aracı yok",
+      "kyc_desc": "Her işlem için tam müşteri doğrulaması ve AML uyumluluğu",
       "no_grey": "Gri Şema Yok"
     },
     "cta": {

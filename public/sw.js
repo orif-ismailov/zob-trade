@@ -16,7 +16,6 @@ const PRECACHE_ASSETS = [
   '/images/products/gasoline-92.svg',
   '/images/products/gasoline-95.svg',
   '/offline.html',
-  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
 ];
 
 // Install event - precache assets
